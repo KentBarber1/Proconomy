@@ -54,6 +54,7 @@
             android:layout_marginBottom="30sp"
             android:backgroundTint="#1785C4"
             android:text="REGISTER"
+            android:onClick="menteeRegister"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/mentorB"
