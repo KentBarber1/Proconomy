@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mentee_register2">
+    tools:context=".mentee_register3">
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="172dp"
-        android:text="Your name is?"
+        android:text="Tell us about yourself."
         android:textColor="#1685C4
 "
         android:textSize="24sp"
@@ -29,27 +29,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/userfirstname"
-        android:layout_width="289dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="304dp"
-        android:hint="Enter first name"
-        android:inputType="text"
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:text="I'm currently... "
+        android:textColor="#727272
+"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/userlastname"
-        android:layout_width="289dp"
-        android:layout_height="44dp"
-        android:layout_marginTop="348dp"
-        android:hint="Enter last name"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
 
     <Button
         android:id="@+id/button1"
@@ -58,7 +51,6 @@
         android:layout_marginTop="468dp"
         android:backgroundTint="#1785C4"
         android:text="Next"
-        android:onClick="menteeRegister_3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
