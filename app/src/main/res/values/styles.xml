@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="skip_this">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="get_expert_">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="which_appli">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+</resources>

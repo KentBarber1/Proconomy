@@ -9,4 +9,9 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="skip_this">Skip  this</string>
+    <string name="get_expert_">Get expert advice for any field you want to pursue.</string>
+    <string name="which_appli">Which applies to you?</string>
+    <string name="i_m_mentor">I\'m a mentor</string>
+    <string name="i_m_mentee">I\'m a mentee</string>
 </resources>
