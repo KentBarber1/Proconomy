@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
         <activity
+            android:name=".mentee_register4"
+            android:exported="false" />
+        <activity
             android:name=".mentee_register3"
             android:exported="false" />
         <activity
