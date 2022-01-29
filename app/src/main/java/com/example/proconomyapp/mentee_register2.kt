@@ -5,18 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class menteescr : AppCompatActivity() {
+class mentee_register2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menteescr)
+        setContentView(R.layout.activity_mentee_register2)
     }
-    fun backClick(view: View) {
-        val myIntent = Intent(this, MainActivity::class.java)
+    fun backClick(view: View){
+        val myIntent = Intent(this, mentee_register::class.java)
         startActivity(myIntent)
     }
-    fun menteeRegister(view: View) {
-        val reg = Intent(this, mentee_register::class.java)
+    fun menteeRegister_3(view: View) {
+        val reg = Intent(this, mentee_register3::class.java)
         startActivity(reg)
     }
-
 }
