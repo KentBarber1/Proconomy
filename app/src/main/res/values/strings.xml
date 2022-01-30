@@ -14,4 +14,7 @@
     <string name="which_appli">Which applies to you?</string>
     <string name="i_m_mentor">I\'m a mentor</string>
     <string name="i_m_mentee">I\'m a mentee</string>
+    <string name="first_time">Is this your first time\?</string>
+    <string name="new_time">Yes, I\'m new to this</string>
+    <string name="get_basics">Nope, I get the basics</string>
 </resources>

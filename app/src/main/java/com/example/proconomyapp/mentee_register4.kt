@@ -43,4 +43,8 @@ class mentee_register4 : AppCompatActivity() , AdapterView.OnItemClickListener {
         var items:String = p0?.getItemAtPosition(p2) as String
         Toast.makeText(applicationContext, "$items", Toast.LENGTH_LONG).show()
     }
+
+    fun completeDetails(view: View) {
+
+    }
 }
