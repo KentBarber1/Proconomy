@@ -38,8 +38,8 @@
             android:layout_height="50sp"
             android:layout_marginTop="120sp"
             android:layout_marginBottom="30sp"
-            android:backgroundTint="#1785C4
-"
+            android:backgroundTint="#1785C4"
+            android:onClick="menteeLogin"
             android:text="LOG IN"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"

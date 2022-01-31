@@ -19,4 +19,9 @@ class menteescr : AppCompatActivity() {
         startActivity(reg)
     }
 
+    fun menteeLogin(view: View) {
+        val reg = Intent(this, menteeLogin::class.java)
+        startActivity(reg)
+    }
+
 }
