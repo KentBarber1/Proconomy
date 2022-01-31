@@ -21,13 +21,10 @@
         <entry key="app/src/main/res/layout/activity_mentee_register3.xml" value="0.2189565022786458" />
         <entry key="app/src/main/res/layout/activity_mentee_register4.xml" value="0.3753687761831975" />
         <entry key="app/src/main/res/layout/activity_menteescr.xml" value="0.22311515762438727" />
-        <entry key="app/src/main/res/layout/activity_mentor_log.xml" value="0.182518115942029" />
-        <entry key="app/src/main/res/layout/activity_mentor_register.xml" value="0.17524566650390627" />
-        <entry key="app/src/main/res/layout/activity_mentor_register2.xml" value="0.2359375" />
-        <entry key="app/src/main/res/layout/activity_mentorscr.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/logo_page.xml" value="0.182518115942029" />
-        <entry key="app/src/main/res/layout/sign_in_mentee.xml" value="0.182518115942029" />
-        <entry key="app/src/main/res/layout/sign_in_mentor.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_mentor_register.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_mentor_register2.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_mentor_register3.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_mentorscr.xml" value="0.2232532945617635" />
       </map>
     </option>
   </component>
