@@ -5,6 +5,41 @@
     android:layout_width="match_parent"
              android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="110sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="468dp"
+        android:backgroundTint="#1685C4"
+        android:onClick="mentorRegister_2"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userfirstname3"
+        android:layout_width="289dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="312dp"
+        android:hint="Enter last name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/userfirstname2"
+        android:layout_width="289dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="268dp"
+        android:hint="Enter first name"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
@@ -47,31 +82,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/basicInfo"
         app:layout_constraintVertical_bias="0.857" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginBottom="27dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter First Name"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/thisWillDisplay" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Enter Last Name"
-        tools:layout_editor_absoluteX="100dp"
-        tools:layout_editor_absoluteY="277dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
