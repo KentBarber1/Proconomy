@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/mentorB"
+            android:id="@+id/mentor"
             android:layout_width="110sp"
             android:layout_height="50sp"
             android:layout_marginTop="120sp"
@@ -46,7 +46,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/reg"
             android:layout_width="110sp"
             android:layout_height="50sp"
             android:layout_marginLeft="70dp"
@@ -57,7 +57,7 @@
             android:text="REGISTER"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/mentorB"
+            app:layout_constraintStart_toEndOf="@+id/mentor"
             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
     </LinearLayout>
     <ImageView

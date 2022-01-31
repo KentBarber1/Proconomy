@@ -9,11 +9,18 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mentoricon"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="270dp" />
+        android:layout_marginStart="71dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/mentoricon" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/mentorB"
+            android:id="@+id/mentor"
             android:layout_width="110sp"
             android:layout_height="50sp"
             android:layout_marginTop="120sp"
@@ -34,7 +41,7 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/reg"
             android:layout_width="110sp"
             android:layout_height="50sp"
             android:layout_marginLeft="70dp"
@@ -45,7 +52,7 @@
             android:text="REGISTER"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/mentorB"
+            app:layout_constraintStart_toEndOf="@+id/mentor"
             app:layout_constraintTop_toBottomOf="@+id/imageView7" />
     </LinearLayout>
 

@@ -79,7 +79,7 @@
     <!-- Button -->
 
     <Button
-        android:id="@+id/mentorB"
+        android:id="@+id/mentor"
         android:layout_width="318dp"
         android:layout_height="44dp"
         android:layout_centerHorizontal="true"
@@ -119,7 +119,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mentorB" />
+        app:layout_constraintTop_toBottomOf="@+id/mentor" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"
