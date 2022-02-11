@@ -14,6 +14,7 @@ class mentorscr : AppCompatActivity() {
         val myIntent = Intent(this, MainActivity::class.java)
         startActivity(myIntent)
     }
+
     fun mentorRegister(view: View) {
         val reg = Intent(this, mentor_register::class.java)
         startActivity(reg)
