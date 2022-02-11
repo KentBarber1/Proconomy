@@ -19,7 +19,5 @@ class menteescr : AppCompatActivity() {
         startActivity(reg)
     }
 
-    fun menteeLogin(view: View) {
-        //val login = Intent(this, )
-    }
+
 }

@@ -17,4 +17,6 @@
     <string name="first_time">Is this your first time\?</string>
     <string name="new_time">Yes, I\'m new to this</string>
     <string name="get_basics">Nope, I get the basics</string>
+    <string name="basic_info_mentor">Let\'s get some basic info</string>
+    <string name="this_will_display_on_your_public_profile">This will display on your public profile</string>
 </resources>
