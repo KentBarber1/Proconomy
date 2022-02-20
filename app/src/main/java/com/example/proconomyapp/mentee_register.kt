@@ -11,7 +11,7 @@ class mentee_register : AppCompatActivity() {
         setContentView(R.layout.activity_mentee_register)
     }
     fun backClick(view: View){
-        val myIntent = Intent(this, MenteeSlide1::class.java)
+        val myIntent = Intent(this, MentorSlide1::class.java)
         startActivity(myIntent)
     }
     fun next(view: View) {

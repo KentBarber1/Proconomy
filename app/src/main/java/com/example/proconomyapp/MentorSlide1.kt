@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MenteeSlide1 : AppCompatActivity() {
+class MentorSlide1 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -18,5 +18,6 @@ class MenteeSlide1 : AppCompatActivity() {
     fun slide2(view: View) {
         val reg = Intent(this, MentorSlide2::class.java)
         startActivity(reg)
+        overridePendingTransition(R.anim.slide_inr,R.anim.slide_outl)
     }
 }

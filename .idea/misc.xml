@@ -56,10 +56,11 @@
         <entry key="app/src/main/res/layout/activity_mentor_register.xml" value="0.20774078369140622" />
         <entry key="app/src/main/res/layout/activity_mentor_register2.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_mentor_register3.xml" value="0.182518115942029" />
-        <entry key="app/src/main/res/layout/activity_mentor_slide1.xml" value="0.21213836669921876" />
-        <entry key="app/src/main/res/layout/activity_mentor_slide2.xml" value="0.15364583333333334" />
-        <entry key="app/src/main/res/layout/activity_mentor_slide3.xml" value="0.15364583333333334" />
+        <entry key="app/src/main/res/layout/activity_mentor_slide1.xml" value="0.17915649414062507" />
+        <entry key="app/src/main/res/layout/activity_mentor_slide2.xml" value="0.2481938680013021" />
+        <entry key="app/src/main/res/layout/activity_mentor_slide3.xml" value="0.16903737386067713" />
         <entry key="app/src/main/res/layout/activity_mentorscr.xml" value="0.2232532945617635" />
+        <entry key="app/src/main/res/layout/activity_notification_turn.xml" value="0.1783499823676215" />
         <entry key="app/src/main/res/layout/activty_mentorpass.xml" value="0.24731903076171874" />
         <entry key="app/src/main/res/layout/activty_pass.xml" value="0.17962962962962964" />
         <entry key="app/src/main/res/layout/layout.xml" value="0.21481481481481482" />

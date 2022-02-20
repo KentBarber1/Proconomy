@@ -16,10 +16,12 @@ class MentorSlide3 : AppCompatActivity() {
         startActivity(myIntent)
     }
     fun toMentorRegister(view: View) {
-        val reg = Intent(this, mentor_register3::class.java)
+        val reg = Intent(this, mentor_3signin::class.java)
         startActivity(reg)
-
-
+    }
+    override fun finish() {
+        super.finish()
+        overridePendingTransition(R.anim.slide_inl,R.anim.slide_outr)
     }
 
 
