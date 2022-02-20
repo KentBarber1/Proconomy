@@ -9,6 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
+
+        <activity
+            android:name=".mentor_register0"
+            android:exported="false" />
+
+        <activity
+            android:name=".mentor_register"
+            android:exported="false" />
+        <activity
+            android:name=".mentee_3signin"
+            android:exported="false" />
+        <activity
+            android:name=".mentor_3signin"
+            android:exported="false" />
+
+        <activity
+            android:name=".mentor_register3"
+            android:exported="false" />
+
+
         <activity
             android:name=".mentee_register4"
             android:exported="false" />

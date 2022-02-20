@@ -2,6 +2,7 @@
     <string name="app_name">proconomy app</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
+    <string name="Enter_Email">Enter your email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
@@ -18,5 +19,20 @@
     <string name="new_time">Yes, I\'m new to this</string>
     <string name="get_basics">Nope, I get the basics</string>
     <string name="basic_info_mentor">Let\'s get some basic info</string>
+    <string name="get_start">Let\'s get started.</string>
     <string name="this_will_display_on_your_public_profile">This will display on your public profile</string>
+    <string name = "monetize">Monetize your career advice.</string>
+    <string name ="give_advice">Give advice. Create opportunities.</string>
+    <string name="email_password.">Enter your access email &amp; password.</string>
+    <string name="enter_pass">Enter your password</string>
+    <string name="reenter_pass">Re-enter your password</string>
+    <string name = "hey_mentor">Hey there, Mentor!</string>
+    <string name="set_up">Let\'s setup your account access</string>
+    <string name="required">Required</string>
+    <string name="Enter_first">Enter first name</string>
+    <string name="Enter_last">Enter last name</string>
+    <string name="get_advice">Get advice. Create opportunities.</string>
+    <string name="hire">Hire your next career mentor.</string>
+    <string name="get_insider">Get insiders from experienced industry expert.</string>
+    <string name="your_name">Your name is?</string>
 </resources>

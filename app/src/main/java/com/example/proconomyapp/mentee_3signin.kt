@@ -1,21 +1,22 @@
 package com.example.proconomyapp
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 
-class mentee_register : AppCompatActivity() {
+class mentee_3signin : AppCompatActivity()  {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_mentee_register)
+        setContentView(R.layout.sign_in_mentee)
     }
-    fun backClick(view: View){
+    fun backClick(view: View) {
         val myIntent = Intent(this, MainActivity::class.java)
         startActivity(myIntent)
     }
-    fun next(view: View) {
-        val reg = Intent(this, mentee_register2::class.java)
+    fun email_sign(view: View) {
+        val reg = Intent(this, mentee_register::class.java)
         startActivity(reg)
     }
+
 }

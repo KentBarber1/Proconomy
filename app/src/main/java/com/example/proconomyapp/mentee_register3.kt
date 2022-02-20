@@ -20,13 +20,13 @@ class mentee_register3 : AppCompatActivity() , AdapterView.OnItemClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mentee_register3)
-
         listView = findViewById(R.id.choiceList)
-        arrayAdapter = ArrayAdapter(applicationContext,
+        arrayAdapter = ArrayAdapter(this,
             android.R.layout.simple_list_item_single_choice, itemList)
         listView?.adapter = arrayAdapter
         listView?.choiceMode = ListView.CHOICE_MODE_SINGLE
         listView?.onItemClickListener = this
+
     }
 
     fun backClick(view: View){

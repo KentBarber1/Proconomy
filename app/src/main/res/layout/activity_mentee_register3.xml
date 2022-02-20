@@ -5,16 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mentee_register3">
-    <ImageView
-        android:id="@+id/imageView4"
+
+    <ImageButton
+        android:id="@+id/imageButton14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15sp"
-        android:layout_marginTop="15sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
         android:onClick="backClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/ic_back_button" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:background="@null"
+        android:onClick="menteeRegister_4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:srcCompat="@drawable/continue_but" />
 
     <TextView
         android:id="@+id/textView1"
@@ -51,18 +64,5 @@
         android:layout_height="245sp"
         android:layout_marginLeft="60sp"
         android:layout_marginTop="190dp" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="110sp"
-        android:layout_height="50sp"
-        android:layout_marginLeft="146dp"
-        android:layout_marginTop="468dp"
-        android:backgroundTint="#1685C4"
-        android:text="Next"
-        android:onClick="menteeRegister_4"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </RelativeLayout>

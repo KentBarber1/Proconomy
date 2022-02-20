@@ -14,7 +14,7 @@ class mentee_register2 : AppCompatActivity() {
         val myIntent = Intent(this, mentee_register::class.java)
         startActivity(myIntent)
     }
-    fun menteeRegister_3(view: View) {
+    fun next(view: View) {
         val reg = Intent(this, mentee_register3::class.java)
         startActivity(reg)
     }
