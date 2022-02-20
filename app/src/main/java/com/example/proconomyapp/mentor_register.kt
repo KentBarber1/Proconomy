@@ -15,7 +15,7 @@ class mentor_register : AppCompatActivity() {
         startActivity(myIntent)
     }
     fun mentorRegister_2(view: View) {
-        val reg = Intent(this, mentor_register2::class.java)
+        val reg = Intent(this, mentor_register3::class.java)
         startActivity(reg)
     }
 }

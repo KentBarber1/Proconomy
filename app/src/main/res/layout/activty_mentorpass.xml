@@ -4,50 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mentee_register">
-
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@null"
-        android:onClick="next"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/continue_but" />
+    tools:context=".mentor_register0"
+    >
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="@string/set_up"
+        android:textColor="#727272
+"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="125dp"
         android:layout_marginBottom="36dp"
-        android:text="@string/get_start"
+        android:text="@string/hey_mentor"
         android:textColor="#1685C4
 "
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:text="@string/email_password."
-        android:textColor="#727272
-"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.44"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textView14"
-        tools:ignore="DuplicateIds" />
-
     <com.google.android.material.textfield.TextInputLayout
+        android:theme = "@style/MyTextInputLayout_overlay"
         android:id="@+id/email_lo"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
         android:layout_width="0dp"
@@ -55,21 +46,21 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="48dp"
-        android:hint="@string/Enter_Email"
-        android:theme="@style/MyTextInputLayout_overlay"
+        android:hint = "@string/Enter_Email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView15">
+        app:layout_constraintTop_toBottomOf="@+id/textView9">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textEmailAddress"
-            android:lines="1" />
+            android:lines ="1"
+            android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout"
+        android:theme = "@style/MyTextInputLayout_overlay"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -77,7 +68,6 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="48dp"
         android:hint="@string/enter_pass"
-        android:theme="@style/MyTextInputLayout_overlay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -87,33 +77,34 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="textPassword"
-            android:lines="1" />
+            android:lines = "1"
+            android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style = "@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="48dp"
-        android:hint="@string/reenter_pass"
-        android:theme="@style/MyTextInputLayout_overlay"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
-        app:passwordToggleEnabled="true">
+        android:hint = "@string/reenter_pass"
+        app:passwordToggleEnabled="true"
+        android:theme = "@style/MyTextInputLayout_overlay"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:lines="1"
             android:inputType="textPassword"
-            android:lines="1" />
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/imageButton5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -123,6 +114,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_back_button" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:onClick="next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/continue_but" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-

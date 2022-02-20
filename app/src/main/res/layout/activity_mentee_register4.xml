@@ -1,56 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/rootLayout"
-    tools:context=".mentee_register4"
-    android:background="#ffffff">
+    android:background="#ffffff"
+    tools:context=".mentee_register4">
 
 
-    <Button
-        android:id="@+id/imageView1"
-        android:layout_width="132dp"
-        android:layout_height="24dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
+    <ImageButton
+        android:id="@+id/imageButton16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="22dp"
-        android:background="@drawable/back_button"
+        android:background="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/continue_but" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
         android:onClick="backClick"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_button" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15sp"
-        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="12dp"
         android:text="Your desired occupation"
         android:textColor="#1685C4"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="22dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginBottom="12dp"
         android:text="Choose up to 3 items that best describe your 'dream' industries."
         android:textColor="#727272"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
         tools:ignore="DuplicateIds" />
 
     <com.google.android.material.chip.ChipGroup
@@ -58,13 +66,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="126dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="32dp"
         android:background="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:singleLine="false"
         app:singleSelection="false">
 
@@ -122,11 +129,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15sp"
-        android:layout_marginTop="226dp"
+        android:layout_marginTop="244dp"
         android:text="Services you're looking for"
         android:textColor="#1685C4"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -135,28 +143,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15sp"
-        android:layout_marginTop="260dp"
         android:text="Select up to 3 tools you'll need to succeed."
         android:textColor="#727272"
         android:textSize="16sp"
+        android:layout_marginBottom="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintHorizontal_bias="0.17"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="DuplicateIds" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:ignore="DuplicateIds"
+        tools:layout_editor_absoluteY="592dp" />
 
     <com.google.android.material.chip.ChipGroup
         android:id="@+id/chipGroup2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
-        android:layout_marginTop="284dp"
-        android:layout_marginEnd="15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
         android:background="#ffffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView4"
         app:singleLine="false"
         app:singleSelection="false">
 
@@ -198,52 +207,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15sp"
-        android:layout_marginTop="388dp"
+        android:layout_marginTop="8dp"
         android:text="Availability you'll need"
-        android:textColor="#1685C4
-"
+        android:textColor="#1685C4"
         android:textSize="24sp"
+
+        app:layout_constraintBottom_toTopOf="@id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.089"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/chipGroup2"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15sp"
-        android:layout_marginTop="420dp"
         android:text="Choose how much time you need."
         android:textColor="#727272
 "
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintHorizontal_bias="0.093"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5"
         tools:ignore="DuplicateIds" />
 
     <ListView
         android:id="@+id/availabilityList"
-        android:layout_width="304sp"
-        android:layout_height="128sp"
-        android:layout_marginTop="440dp"
+        android:layout_width="0dp"
+        android:layout_height="100sp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.579"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="325sp"
-        android:layout_height="47sp"
-        android:layout_marginLeft="15sp"
-        android:layout_marginTop="568dp"
-        android:backgroundTint="#1685C4"
-        android:text="Complete your details"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.252"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
