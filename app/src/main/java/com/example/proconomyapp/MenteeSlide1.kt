@@ -5,19 +5,18 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class menteescr : AppCompatActivity() {
+class MentorSlide1 : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_menteescr)
+        setContentView(R.layout.activity_mentee_slide1)
     }
     fun backClick(view: View) {
-        val myIntent = Intent(this, MainActivity::class.java)
+        val myIntent = Intent(this, menteescr::class.java)
         startActivity(myIntent)
     }
-    fun menteeRegister(view: View) {
-        val reg = Intent(this, MenteeSlide1::class.java)
+    fun slide2(view: View) {
+        val reg = Intent(this, MenteeSlide2::class.java)
         startActivity(reg)
     }
-
-
 }

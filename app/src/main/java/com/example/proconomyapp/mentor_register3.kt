@@ -31,7 +31,7 @@ class mentor_register3 : AppCompatActivity(), AdapterView.OnItemClickListener {
 
 
     fun backClick(view: View) {
-        val myIntent = Intent(this, mentor_register2::class.java)
+        val myIntent = Intent(this, MentorRegister2::class.java)
         startActivity(myIntent)
     }
     fun mentor_register4(view: View) {

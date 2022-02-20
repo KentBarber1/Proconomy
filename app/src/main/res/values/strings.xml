@@ -19,4 +19,15 @@
     <string name="get_basics">Nope, I get the basics</string>
     <string name="basic_info_mentor">Let\'s get some basic info</string>
     <string name="this_will_display_on_your_public_profile">This will display on your public profile</string>
+    <string name="sell_your">Sell your insider advice to industry newcomers.</string>
+    <string name="create_your">Create your account.</string>
+    <string name="set_up_your">Set up your account right on the site. Then, control the price and variety of your mentoring services.</string>
+    <string name="get_industr">Get industry-standard advice.</string>
+    <string name="work_direct">Work directly with a mentor and received services that will you help you get to the next best place in your career.</string>
+    <string name="personalize">Personalize your search.</string>
+    <string name="search_for_">Search for mentors in any field, and start learning how to get into the industry you want to work in.</string>
+    <string name="personalize_brand">Personalize your brand.</string>
+    <string name="personalize_brand_text">Personalize your brand and build the ideal profile to suit your needs and business model.</string>
+    <string name="give_indust">Give industry-standard advice.</string>
+    <string name="get_listed_">Get listed on our Community page, make dreams come true and get paid while doing it.</string>
 </resources>
