@@ -35,4 +35,15 @@
     <string name="hire">Hire your next career mentor.</string>
     <string name="get_insider">Get insiders from experienced industry expert.</string>
     <string name="your_name">Your name is?</string>
+    <string name="create_your">Create your account.</string>
+    <string name="set_up_your">Set up your account, get  access to your account dashboard, and start searching for your career mentor.</string>
+    <string name="give_industr">Get industry-standard advice.</string>
+    <string name="get_listed_">"Work directly with a mentor and received services that will you help you get to the next best place in your career. "</string>
+    <string name="personalize_brand">Personalize your brand.</string>
+    <string name="personalize_brand_text">Personalize your brand and build the ideal profile to suit your needs and business model.</string>
+    <string name="get_industr">Get industry-standard advice.</string>
+    <string name="work_direct">"Work directly with a mentor and received services that will you help you get to the next best place in your career. "</string>
+    <string name="personalize">Personalize your search.</string>
+    <string name="search_for_">Search for mentors in any field, and start learning how to get into the industry you want to work in.</string>
+
 </resources>
