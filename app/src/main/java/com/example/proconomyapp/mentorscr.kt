@@ -16,8 +16,13 @@ class mentorscr : AppCompatActivity() {
     }
 
     fun mentorRegister(view: View) {
-        val reg = Intent(this, mentor_register::class.java)
+        val reg = Intent(this, MentorRegister2::class.java)
         startActivity(reg)
+    }
+
+    fun mentorSlide1(view: View) {
+        val slider = Intent(this, com.example.proconomyapp.MentorSlide1::class.java)
+        startActivity(slider)
     }
 
 }

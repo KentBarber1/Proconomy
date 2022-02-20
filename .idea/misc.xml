@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_back_button.xml" value="0.14270833333333333" />
-        <entry key="..\:/Proconomy/app/src/main/res/drawable/icon_back.xml" value="0.14635416666666667" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_button__1_.xml" value="0.14583333333333334" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_getting_started_is_easy_.xml" value="0.1" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_rafiki.xml" value="0.20092592592592592" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/icon_back.xml" value="0.14635416666666667" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/master.xml" value="0.14739583333333334" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/slide_dot.xml" value="0.17962962962962964" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/slide_dot_selected.xml" value="0.17962962962962964" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/slide_dot_unselected.xml" value="0.2703125" />
         <entry key="..\:/Proconomy/app/src/main/res/font-v26/styles.xml" value="0.1578125" />
         <entry key="..\:/Proconomy/app/src/main/res/font/nunito.xml" value="0.20555555555555555" />
         <entry key="..\:/Proconomy/app/src/main/res/font/styles.xml" value="0.20555555555555555" />
@@ -18,14 +23,21 @@
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_register2.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_register3.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_register4.xml" value="0.1" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_slide1.xml" value="0.19655521783181357" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_slide2.xml" value="0.19655521783181357" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_slide3.xml" value="0.19655521783181357" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_menteescr.xml" value="0.2" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_log.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register2.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register3.xml" value="0.13333333333333333" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentorscr.xml" value="0.1" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_slide1.xml" value="0.264" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_slide2.xml" value="0.1" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_slide3.xml" value="0.19655521783181357" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentorscr.xml" value="0.2" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/logo_page.xml" value="0.12183383991894631" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/mentee_registerlogin.xml" value="0.12183383991894631" />
+<<<<<<< Updated upstream
         <entry key="..\:/Users/eniad/StudioProjects/Proconomy/app/src/main/res/drawable/logo.xml" value="0.209" />
         <entry key="..\:/Users/eniad/StudioProjects/Proconomy/app/src/main/res/drawable/proconomy_logo_blue.xml" value="0.209" />
         <entry key="..\:/Users/eniad/StudioProjects/Proconomy/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.2563587684069612" />
@@ -46,6 +58,9 @@
         <entry key="..\:/Users/eniad/StudioProjects/Proconomy/app/src/main/res/layout/mentor_or_mentee.xml" value="0.358695652173913" />
         <entry key="..\:/Users/eniad/StudioProjects/Proconomy/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2985" />
         <entry key="..\:/Users/eniad/StudioProjects/Proconomy/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2985" />
+=======
+        <entry key="..\:/Proconomy/app/src/main/res/layout/mentor_slide1.xml" value="0.12" />
+>>>>>>> Stashed changes
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_main.xml" value="0.1111111111111111" />
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_menteescr.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.113" />

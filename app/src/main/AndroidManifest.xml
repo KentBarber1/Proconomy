@@ -32,6 +32,28 @@
             android:name=".mentorscr"
             android:exported="false" />
         <activity
+            android:name=".MentorSlide1"
+            android:exported="false" />
+        <activity
+            android:name=".MentorSlide2"
+            android:exported="false" />
+        <activity
+            android:name=".MentorSlide3"
+            android:exported="false" />
+        <activity
+            android:name=".MenteeSlide1"
+            android:exported="false" />
+        <activity
+            android:name=".MenteeSlide2"
+            android:exported="false" />
+        <activity
+            android:name=".MenteeSlide3"
+            android:exported="false" />
+
+        <activity
+            android:name=".MentorRegister"
+            android:exported="false" />
+        <activity
             android:name=".LogoActivity"
             android:exported="true">
             <intent-filter>
