@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
         <activity
+            android:name=".turn_location"
+            android:exported="false" />
+        <activity
             android:name=".mentor_availability"
             android:exported="false" />
         <activity
