@@ -9,11 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
-
+        <activity
+            android:name=".mentor_availability"
+            android:exported="false" />
+        <activity
+            android:name=".mentee_select_time"
+            android:exported="false" />
+        <activity
+            android:name=".view_calendar"
+            android:exported="false" />
         <activity
             android:name=".mentor_register0"
             android:exported="false" />
-
         <activity
             android:name=".mentor_register"
             android:exported="false" />
@@ -23,12 +30,9 @@
         <activity
             android:name=".mentor_3signin"
             android:exported="false" />
-
         <activity
             android:name=".mentor_register3"
             android:exported="false" />
-
-
         <activity
             android:name=".mentee_register4"
             android:exported="false" />
@@ -69,10 +73,6 @@
         <activity
             android:name=".MenteeSlide3"
             android:exported="false" />
-
-        <activity
-            android:name=".MentorRegister"
-            android:exported="false" />
         <activity
             android:name=".LogoActivity"
             android:exported="true">
@@ -82,11 +82,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".MainActivity"
-            android:exported="true"/>
-
-
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

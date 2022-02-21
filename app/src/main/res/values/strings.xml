@@ -21,12 +21,12 @@
     <string name="basic_info_mentor">Let\'s get some basic info</string>
     <string name="get_start">Let\'s get started.</string>
     <string name="this_will_display_on_your_public_profile">This will display on your public profile</string>
-    <string name = "monetize">Monetize your career advice.</string>
-    <string name ="give_advice">Give advice. Create opportunities.</string>
+    <string name="monetize">Monetize your career advice.</string>
+    <string name="give_advice">Give advice. Create opportunities.</string>
     <string name="email_password.">Enter your access email &amp; password.</string>
     <string name="enter_pass">Enter your password</string>
     <string name="reenter_pass">Re-enter your password</string>
-    <string name = "hey_mentor">Hey there, Mentor!</string>
+    <string name="hey_mentor">Hey there, Mentor!</string>
     <string name="set_up">Let\'s setup your account access</string>
     <string name="required">Required</string>
     <string name="Enter_first">Enter first name</string>
@@ -45,5 +45,4 @@
     <string name="work_direct">"Work directly with a mentor and received services that will you help you get to the next best place in your career. "</string>
     <string name="personalize">Personalize your search.</string>
     <string name="search_for_">Search for mentors in any field, and start learning how to get into the industry you want to work in.</string>
-
 </resources>
