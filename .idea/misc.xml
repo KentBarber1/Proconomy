@@ -3,59 +3,39 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_back_button.xml" value="0.14270833333333333" />
-        <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_button__1_.xml" value="0.14583333333333334" />
-        <entry key="..\:/Proconomy/app/src/main/res/drawable/icon_back.xml" value="0.14635416666666667" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/master.xml" value="0.14739583333333334" />
         <entry key="..\:/Proconomy/app/src/main/res/font-v26/styles.xml" value="0.1578125" />
         <entry key="..\:/Proconomy/app/src/main/res/font/nunito.xml" value="0.20555555555555555" />
         <entry key="..\:/Proconomy/app/src/main/res/font/styles.xml" value="0.20555555555555555" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.14792503346720215" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout-w936dp/activity_login.xml" value="0.17265625" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_register.xml" value="0.4" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_register2.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_register3.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_register4.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_menteescr.xml" value="0.2" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_log.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register2.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register3.xml" value="0.13333333333333333" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentorscr.xml" value="0.1" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_menteescr.xml" value="0.4041666666666667" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/logo_page.xml" value="0.12183383991894631" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/mentee_registerlogin.xml" value="0.12183383991894631" />
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_main.xml" value="0.1111111111111111" />
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_menteescr.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.113" />
-        <entry key="app/src/main/res/drawable/continue_but.xml" value="0.1005" />
-        <entry key="app/src/main/res/drawable/ic_back_button.xml" value="0.1255" />
-        <entry key="app/src/main/res/drawable/ic_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_button__1_.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_button__2__.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_button__3_.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.113" />
-        <entry key="app/src/main/res/drawable/ic_master.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/logo.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/master.xml" value="0.113" />
         <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.119140625" />
         <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.179296875" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2390625" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2233495080232398" />
-        <entry key="app/src/main/res/layout/activity_mentee_password.xml" value="0.189453125" />
-        <entry key="app/src/main/res/layout/activity_mentee_register.xml" value="0.2011444091796875" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1397954308748023" />
+        <entry key="app/src/main/res/layout/activity_mentee_register.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_mentee_register2.xml" value="0.20145009358723956" />
         <entry key="app/src/main/res/layout/activity_mentee_register3.xml" value="0.2189565022786458" />
-        <entry key="app/src/main/res/layout/activity_mentee_register4.xml" value="0.37027130126953123" />
-        <entry key="app/src/main/res/layout/activity_mentee_slide1.xml" value="0.25611419677734376" />
-        <entry key="app/src/main/res/layout/activity_mentee_slide2.xml" value="0.15364583333333334" />
-        <entry key="app/src/main/res/layout/activity_mentee_slide3.xml" value="0.15364583333333334" />
+        <entry key="app/src/main/res/layout/activity_mentee_register4.xml" value="0.3753687761831975" />
+        <entry key="app/src/main/res/layout/activity_mentee_select_time.xml" value="0.41263410780164933" />
         <entry key="app/src/main/res/layout/activity_menteescr.xml" value="0.22311515762438727" />
+        <entry key="app/src/main/res/layout/activity_mentor_availability.xml" value="0.32044144401395014" />
         <entry key="app/src/main/res/layout/activity_mentor_log.xml" value="0.182518115942029" />
-        <entry key="app/src/main/res/layout/activity_mentor_register.xml" value="0.20774078369140622" />
+        <entry key="app/src/main/res/layout/activity_mentor_register.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_mentor_register2.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_mentor_register3.xml" value="0.182518115942029" />
+        <entry key="app/src/main/res/layout/activity_mentorscr.xml" value="0.2232532945617635" />
+        <entry key="app/src/main/res/layout/activity_view_calendar.xml" value="0.25831298828125004" />
         <entry key="app/src/main/res/layout/activity_mentor_slide1.xml" value="0.17915649414062507" />
         <entry key="app/src/main/res/layout/activity_mentor_slide2.xml" value="0.2481938680013021" />
         <entry key="app/src/main/res/layout/activity_mentor_slide3.xml" value="0.16903737386067713" />

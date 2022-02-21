@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
         <activity
+            android:name=".mentor_availability"
+            android:exported="false" />
+        <activity
+            android:name=".mentee_select_time"
+            android:exported="false" />
+        <activity
+            android:name=".view_calendar"
+            android:exported="false" />
+        <activity
             android:name=".notification_turn"
             android:exported="false" />
         <activity

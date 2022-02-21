@@ -25,5 +25,4 @@ class MainActivity : AppCompatActivity() {
         val myIn = Intent(this, menteescr::class.java)
         startActivity(myIn)
     }
-
 }
