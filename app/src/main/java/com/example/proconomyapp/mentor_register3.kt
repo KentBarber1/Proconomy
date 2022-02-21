@@ -22,7 +22,7 @@ class mentor_register3 : AppCompatActivity(), AdapterView.OnItemClickListener {
         setContentView(R.layout.activity_mentor_register3)
 
         listView = findViewById(R.id.choiceList)
-        arrayAdapter = ArrayAdapter(this,
+        arrayAdapter = ArrayAdapter(applicationContext,
             android.R.layout.simple_list_item_single_choice, itemList)
         listView?.adapter = arrayAdapter
         listView?.choiceMode = ListView.CHOICE_MODE_SINGLE
@@ -35,6 +35,7 @@ class mentor_register3 : AppCompatActivity(), AdapterView.OnItemClickListener {
         startActivity(myIntent)
     }
     fun mentor_register4(view: View) {
+
     }
     override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
         var items:String = p0?.getItemAtPosition(p2) as String
