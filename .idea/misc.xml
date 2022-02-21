@@ -30,12 +30,21 @@
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_menteescr.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.113" />
         <entry key="app/src/main/res/drawable-v24/rectangle_1441.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/continue_.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/continue_but.xml" value="0.1005" />
         <entry key="app/src/main/res/drawable/ic_back_button.xml" value="0.1255" />
         <entry key="app/src/main/res/drawable/ic_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_button__1_.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_button__2__.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_button__3_.xml" value="0.113" />
+        <entry key="app/src/main/res/drawable/ic_button_continue.xml" value="0.121" />
+        <entry key="app/src/main/res/drawable/ic_button_copy.xml" value="0.121" />
+        <entry key="app/src/main/res/drawable/ic_button_copy_2.xml" value="0.121" />
+        <entry key="app/src/main/res/drawable/ic_button_copy_3.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_getting_started_is_easy_.xml" value="0.121" />
+        <entry key="app/src/main/res/drawable/ic_group_42.xml" value="0.121" />
+        <entry key="app/src/main/res/drawable/ic_group_47.xml" value="0.121" />
+        <entry key="app/src/main/res/drawable/ic_group_47_copy_2.xml" value="0.121" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_master.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_rectangle_1441.xml" value="0.1065" />
