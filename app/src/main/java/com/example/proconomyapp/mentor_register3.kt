@@ -31,10 +31,12 @@ class mentor_register3 : AppCompatActivity(), AdapterView.OnItemClickListener {
 
 
     fun backClick(view: View) {
-        val myIntent = Intent(this, MentorRegister2::class.java)
+        val myIntent = Intent(this, MentorRegister::class.java)
         startActivity(myIntent)
     }
     fun mentor_register4(view: View) {
+        val myIntent = Intent(this, mentee_register4::class.java)
+        startActivity(myIntent)
     }
     override fun onItemClick(p0: AdapterView<*>?, p1: View?, p2: Int, p3: Long) {
         var items:String = p0?.getItemAtPosition(p2) as String

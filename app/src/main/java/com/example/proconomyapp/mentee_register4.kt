@@ -45,6 +45,7 @@ class mentee_register4 : AppCompatActivity() , AdapterView.OnItemClickListener {
     }
 
     fun completeDetails(view: View) {
-
+        val myIntent = Intent(this, notification_turn::class.java)
+        startActivity(myIntent)
     }
 }

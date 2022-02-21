@@ -19,6 +19,10 @@ class mentorscr : AppCompatActivity() {
         val reg = Intent(this, MentorSlide1::class.java)
         startActivity(reg)
     }
+    fun skip(view:View){
+        val reg = Intent(this, notification_turn::class.java)
+        startActivity(reg)
+    }
 
     fun basic(view:View) {
         val reg = Intent(this, mentor_3signin::class.java)

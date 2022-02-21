@@ -16,6 +16,7 @@
         android:fontFamily="@font/nunito_bold"
         android:gravity="top"
         android:lineSpacingExtra="2sp"
+        android:onClick="skip"
         android:text="@string/skip_this"
         android:textAppearance="@style/skip_this"
         app:layout_constraintEnd_toEndOf="parent"
