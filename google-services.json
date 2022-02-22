@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "998656981315",
+    "project_id": "proconomy-7c87f",
+    "storage_bucket": "proconomy-7c87f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998656981315:android:a9b6d83a43adf4fca017f6",
+        "android_client_info": {
+          "package_name": "com.example.proconomyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998656981315-pfhku6v3qpmktfq6p6but98ss908glii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8FVXpjpVZyOiRDLbsfZQRj6IYy8-a9Qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998656981315-pfhku6v3qpmktfq6p6but98ss908glii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
