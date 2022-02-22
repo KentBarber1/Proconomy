@@ -25,7 +25,8 @@ class mentorscr : AppCompatActivity() {
     }
 
     fun basic(view:View) {
-        val reg = Intent(this, mentor_3signin::class.java)
+        val reg = Intent(this, login_mentee::class.java)
+        reg.putExtra("key", "mentor")
         startActivity(reg)
     }
 

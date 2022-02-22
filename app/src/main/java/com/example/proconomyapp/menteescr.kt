@@ -19,7 +19,8 @@ class menteescr : AppCompatActivity() {
         startActivity(reg)
     }
     fun basic(view: View) {
-        val reg = Intent(this, mentee_3signin::class.java)
+        val reg = Intent(this, login_mentee::class.java)
+        reg.putExtra("key","mentee")
         startActivity(reg)
     }
 

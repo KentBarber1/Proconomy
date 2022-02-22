@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
         <activity
+            android:name=".password_log"
+            android:exported="false" />
+        <activity
+            android:name=".login_mentee"
+            android:exported="false" />
+        <activity
             android:name=".turn_location"
             android:exported="false" />
         <activity
