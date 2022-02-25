@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@null"
-        android:contentDescription="facebook_signin"
+        android:contentDescription="@string/facebook_signin"
         android:minHeight="48dp"
         android:onClick="next"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@color/white"
-        android:contentDescription="google_signin"
+        android:contentDescription="@string/google_signin"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton28"
         app:layout_constraintEnd_toEndOf="parent"
@@ -80,7 +80,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
 
     <ImageButton
         android:id="@+id/imageButton30"
@@ -88,6 +89,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@null"
+        android:contentDescription="@string/sign_in_with_email"
+        android:minHeight="48dp"
         android:onClick="next"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

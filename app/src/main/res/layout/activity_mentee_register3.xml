@@ -15,26 +15,29 @@
         android:background="@null"
         android:onClick="menteeRegister_4"
         app:layout_constraintHorizontal_bias="0.0"
-        app:srcCompat="@drawable/continue_but" />
+        app:srcCompat="@drawable/continue_but"
+        android:contentDescription="@string/complete_your_details" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15sp"
+        android:layout_marginStart="15sp"
         android:layout_marginTop="15sp"
+        android:minHeight="48dp"
         android:onClick="backClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/back" />
+        app:srcCompat="@drawable/back_button"
+        android:contentDescription="@string/backbutton" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60sp"
+        android:layout_marginStart="60sp"
         android:layout_marginTop="105dp"
-        android:text="Tell us about yourself."
+        android:text="@string/tell_us_about_yourself"
         android:textColor="#1685C4"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,9 +48,9 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="60sp"
+        android:layout_marginStart="60sp"
         android:layout_marginTop="140dp"
-        android:text="I'm currently... "
+        android:text="@string/i_m_currently"
         android:textColor="#727272
 "
         android:textSize="18sp"
@@ -60,7 +63,7 @@
         android:id="@+id/choiceList"
         android:layout_width="293sp"
         android:layout_height="245sp"
-        android:layout_marginLeft="60sp"
+        android:layout_marginStart="60sp"
         android:layout_marginTop="190dp" />
 
 </RelativeLayout>
