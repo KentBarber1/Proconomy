@@ -144,5 +144,7 @@
     <string name="resume_prep">Resume Prep 10 mentors available</string>
     <string name="real_state">Learn the basics of real estate</string>
     <string name="learn_servcie">Mentors available for these services</string>
+    <string name="backbutton">backbutton</string>
+    <string name="complete_your_details">Complete your details</string>
 
 </resources>
