@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".mentor_profile">
+
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/ic_back_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/shapeableImageView"
+            android:layout_width="380dp"
+            android:layout_height="202dp"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/profile_img"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/back_button"
+            app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+
+        <LinearLayout
+            android:id="@+id/name_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/shapeableImageView">
+
+            <LinearLayout
+                android:id="@+id/name_occu"
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/love_share"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/shapeableImageView">
+
+                <TextView
+                    android:id="@+id/profile_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="@string/mentor_name"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/profile_occupation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="@string/mentor_occupation"
+                    android:textColor="@color/gray"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/love_share"
+                android:layout_width="0dip"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toStartOf="@+id/name_occu"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/name_occu"
+                app:layout_constraintTop_toBottomOf="@id/shapeableImageView">
+
+                <Button
+                    android:id="@+id/icons_share"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/ic_share_profile"
+                    app:layout_constraintEnd_toStartOf="@+id/icons_love"
+                    app:layout_constraintStart_toEndOf="@+id/profile_occupation"
+                    tools:layout_editor_absoluteY="317dp" />
+
+                <Button
+                    android:id="@+id/icons_love"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/ic_love_profile"
+                    android:clipToOutline="true"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/icons_share"
+                    tools:layout_editor_absoluteY="317dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="223dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.16"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name_occu">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_verified_mentor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Verified Mentor"
+                android:textColor="@color/Primary01"
+                android:textSize="21dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="394dp"
+            android:layout_marginEnd="35dp"
+            android:fontFamily="@font/nunito_bold"
+            android:text="@string/dollar"
+            android:textColor="#1685C4"
+            android:textSize="35sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_see_ava"
+            android:onClick="seeAvailability"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

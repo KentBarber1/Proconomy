@@ -54,4 +54,8 @@
             #000000
         </item>
     </style>
+
+    <style name="corneredSquare">
+        <item name="cornerSize">10%</item>
+    </style>
 </resources>

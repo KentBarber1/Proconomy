@@ -18,10 +18,8 @@ class MenteeSlide2 : AppCompatActivity() {
     fun slide3(view: View) {
         val reg = Intent(this, MenteeSlide3::class.java)
         startActivity(reg)
-        overridePendingTransition(R.anim.slide_inr,R.anim.slide_outl)
     }
     override fun finish() {
         super.finish()
-        overridePendingTransition(R.anim.slide_inl,R.anim.slide_outr)
     }
 }

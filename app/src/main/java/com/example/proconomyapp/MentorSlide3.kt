@@ -21,7 +21,7 @@ class MentorSlide3 : AppCompatActivity() {
     }
     override fun finish() {
         super.finish()
-        overridePendingTransition(R.anim.slide_inl,R.anim.slide_outr)
+
     }
 
 
