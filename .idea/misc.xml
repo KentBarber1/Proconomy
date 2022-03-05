@@ -16,6 +16,9 @@
         <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_share_profile.xml" value="0.2537037037037037" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/icon_back.xml" value="0.14635416666666667" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/master.xml" value="0.14739583333333334" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/offers_blue_cir.xml" value="0.26666666666666666" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/offers_button.xml" value="0.26666666666666666" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/offers_icon.xml" value="0.26666666666666666" />
         <entry key="..\:/Proconomy/app/src/main/res/font-v26/styles.xml" value="0.1578125" />
         <entry key="..\:/Proconomy/app/src/main/res/font/nunito.xml" value="0.20555555555555555" />
         <entry key="..\:/Proconomy/app/src/main/res/font/styles.xml" value="0.20555555555555555" />
@@ -32,7 +35,7 @@
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentee_slide3.xml" value="0.15833333333333333" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_menteescr.xml" value="0.2" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_log.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_profile.xml" value="0.264" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_profile.xml" value="0.4" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register2.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register3.xml" value="0.13333333333333333" />

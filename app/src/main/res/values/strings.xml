@@ -46,6 +46,12 @@
     <string name="personalize">Personalize your search.</string>
     <string name="search_for_">Search for mentors in any field, and start learning how to get into the industry you want to work in.</string>
     <string name="dollar">$25.00</string>
-    <string name="mentor_name">Frank Oboye,  </string>
+    <string name="mentor_name">Frank Oboye,\ </string>
     <string name="mentor_occupation">UX Designer</string>
+    <string name="profile_employment">Currently employed full-time at CBORD \nSince July 2018</string>
+    <string name="see_av">See Availability</string>
+    <string name="discount">Offers special discounts</string>
+    <string name="night_session">Offers nightly sessions</string>
+    <string name="intro_para">I offer services tailored to emerging professionals, including industry standard advice, portfolio design, and resume review services for the budding practitioner. I charge weekly and require an initial payment before our first consultation. \nAs part of my promise to you, I create a curriculum with your plans and goals in mind. I typically work with clients over a 4 to 6-week period and by the end of our collaboration, you\u00E2\u0080\u0099ll have a portfolio and resume that is industry-ready.\n
+</string>
 </resources>
