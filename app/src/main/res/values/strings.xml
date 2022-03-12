@@ -169,4 +169,10 @@
     <string name="tell_us_about_yourself">Tell us about yourself.</string>
     <string name="i_m_currently">I\'m currently…</string>
 
+    <string name="facebook_app_id">1882715271918744</string>
+    <string name="fb_login_protocol_scheme">fb1882715271918744</string>
+    <string name="facebook_client_token">72b186ba350e2b9b10d599b495eeee51</string>
+
+
+
 </resources>
