@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MentorSlide1">
+    tools:context=".mentee_slider3">
 
 
     <Button
@@ -15,6 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginBottom="20dp"
         android:background="@drawable/ic_button_continue"
+        android:onClick="menteeRegister"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -23,14 +24,14 @@
     <TextView
         android:id="@+id/create_your"
         android:layout_width="255dp"
-        android:layout_height="26dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="15dp"
         android:fontFamily="@font/nunito_bold"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="0sp"
-        android:text="@string/create_your"
+        android:text="@string/personalize"
         android:textAppearance="@style/create_your"
         android:textSize="22sp"
         app:layout_constraintBottom_toTopOf="@+id/set_up_your"
@@ -61,7 +62,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView"
-        app:srcCompat="@drawable/ic_amico" />
+        app:srcCompat="@drawable/ic_house_searching" />
 
     <TextView
         android:id="@+id/set_up_your"
@@ -74,7 +75,7 @@
         android:gravity="center_horizontal|top"
         android:lineHeight="24sp"
         android:lineSpacingExtra="2sp"
-        android:text="@string/set_up_your"
+        android:text="@string/search_for_"
         android:textAppearance="@style/set_up_your"
         app:layout_constraintBottom_toTopOf="@+id/dots"
         app:layout_constraintEnd_toEndOf="parent"
@@ -86,13 +87,13 @@
         android:id="@+id/dots"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:background="@null"
-        android:onClick="slide2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/set_up_your"
-        app:srcCompat="@drawable/ic_group_47" />
+        app:srcCompat="@drawable/ic_group_47_copy_2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,7 +15,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginBottom="20dp"
         android:background="@drawable/ic_button_continue"
-        android:onClick="menteeRegister"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -77,14 +76,14 @@
         android:lineSpacingExtra="2sp"
         android:text="@string/search_for_"
         android:textAppearance="@style/set_up_your"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton17"
+        app:layout_constraintBottom_toTopOf="@+id/dots"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/create_your" />
 
     <ImageButton
-        android:id="@+id/imageButton17"
+        android:id="@+id/dots"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
