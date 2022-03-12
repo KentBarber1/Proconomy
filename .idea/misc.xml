@@ -26,17 +26,6 @@
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentorscr.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/logo_page.xml" value="0.12183383991894631" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/mentee_registerlogin.xml" value="0.12183383991894631" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/drawable/logo.xml" value="0.2705" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/layout/activity_login_mentee.xml" value="0.2015625" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/layout/activity_main.xml" value="0.2916666666666667" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/layout/activity_view_calendar.xml" value="0.3482789855072464" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/layout/activty_mentorpass.xml" value="0.33" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/layout/logo_page.xml" value="0.3482789855072464" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/layout/mainpage1.xml" value="0.3482789855072464" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2555" />
-        <entry key="..\:/Users/eniad/StudioProjects/ProconomyK/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2705" />
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_main.xml" value="0.1111111111111111" />
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_menteescr.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.113" />
@@ -58,6 +47,7 @@
         <entry key="app/src/main/res/drawable/ic_group_47_copy_2.xml" value="0.121" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/ic_master.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_rafiki.xml" value="0.106" />
         <entry key="app/src/main/res/drawable/ic_rectangle_1441.xml" value="0.1065" />
         <entry key="app/src/main/res/drawable/logo.xml" value="0.113" />
         <entry key="app/src/main/res/drawable/master.xml" value="0.113" />
@@ -74,26 +64,38 @@
         <entry key="app/src/main/res/layout/activity_mentee_register2.xml" value="0.20145009358723956" />
         <entry key="app/src/main/res/layout/activity_mentee_register3.xml" value="0.2189565022786458" />
         <entry key="app/src/main/res/layout/activity_mentee_register4.xml" value="0.3175" />
-        <entry key="app/src/main/res/layout/activity_mentee_slide1.xml" value="0.25611419677734376" />
+        <entry key="app/src/main/res/layout/activity_mentee_slide1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_mentee_slide2.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/layout/activity_mentee_slide3.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/layout/activity_menteescr.xml" value="0.22311515762438727" />
+        <entry key="app/src/main/res/layout/activity_mentor_availability.xml" value="0.22916666666666666" />
         <entry key="app/src/main/res/layout/activity_mentor_log.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_mentor_register.xml" value="0.20774078369140622" />
         <entry key="app/src/main/res/layout/activity_mentor_register2.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_mentor_register3.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_mentor_slide1.xml" value="0.17915649414062507" />
-        <entry key="app/src/main/res/layout/activity_mentor_slide2.xml" value="0.2481938680013021" />
+        <entry key="app/src/main/res/layout/activity_mentor_slide2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_mentor_slide3.xml" value="0.16903737386067713" />
         <entry key="app/src/main/res/layout/activity_mentorscr.xml" value="0.125" />
         <entry key="app/src/main/res/layout/activity_notification_turn.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_password_log.xml" value="0.13737945556640627" />
         <entry key="app/src/main/res/layout/activity_scrolling.xml" value="0.21388888888888888" />
+        <entry key="app/src/main/res/layout/activity_searching.xml" value="0.20415649414062503" />
         <entry key="app/src/main/res/layout/activity_turn_location.xml" value="0.18020833333333333" />
         <entry key="app/src/main/res/layout/activity_view_calendar.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activty_mentorpass.xml" value="0.24731903076171874" />
         <entry key="app/src/main/res/layout/activty_pass.xml" value="0.17962962962962964" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.12135416666666667" />
+        <entry key="app/src/main/res/layout/fragment_logo.xml" value="0.21510416666666668" />
+        <entry key="app/src/main/res/layout/fragment_main_ac.xml" value="0.22916666666666666" />
+        <entry key="app/src/main/res/layout/fragment_mentee_slider.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/fragment_mentee_slider2.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/fragment_mentee_slider3.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/fragment_mentee_src.xml" value="0.21510416666666668" />
+        <entry key="app/src/main/res/layout/fragment_mentor_slider.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/fragment_mentor_slider2.xml" value="0.11875" />
+        <entry key="app/src/main/res/layout/fragment_mentor_slider3.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_mentor_src.xml" value="0.15925925925925927" />
         <entry key="app/src/main/res/layout/layout.xml" value="0.21481481481481482" />
         <entry key="app/src/main/res/layout/login_mentee.xml" value="0.1" />
         <entry key="app/src/main/res/layout/logo_page.xml" value="0.182518115942029" />

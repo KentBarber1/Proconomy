@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
         <activity
+            android:name=".searching"
+            android:exported="false" />
+        <activity
             android:name=".password_log"
             android:exported="false" />
         <activity

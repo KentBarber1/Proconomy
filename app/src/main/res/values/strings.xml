@@ -168,6 +168,9 @@
     <string name="sign_up_with_email">Sign up with email</string>
     <string name="tell_us_about_yourself">Tell us about yourself.</string>
     <string name="i_m_currently">I\'m currently…</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sell_your">Sell your insider advice to industry newcomers.</string>
 
     <string name="facebook_app_id">1882715271918744</string>
     <string name="fb_login_protocol_scheme">fb1882715271918744</string>

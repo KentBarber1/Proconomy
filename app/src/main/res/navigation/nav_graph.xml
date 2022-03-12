@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/logo">
+
+    <fragment
+        android:id="@+id/mainAc2"
+        android:name="com.example.proconomyapp.MainAc"
+        android:label="fragment_main_ac"
+        tools:layout="@layout/fragment_main_ac" >
+        <action
+            android:id="@+id/action_mainAc2_to_menteeSrc"
+            app:destination="@id/menteeSrc" />
+        <action
+            android:id="@+id/action_mainAc2_to_mentorSrc"
+            app:destination="@id/mentorSrc" />
+    </fragment>
+    <fragment
+        android:id="@+id/logo"
+        android:name="com.example.proconomyapp.logo"
+        android:label="fragment_logo"
+        tools:layout="@layout/fragment_logo" >
+        <action
+            android:id="@+id/action_logo_to_mainAc2"
+            app:destination="@id/mainAc2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menteeSrc"
+        android:name="com.example.proconomyapp.menteeSrc"
+        android:label="menteeSrc" >
+        <action
+            android:id="@+id/action_menteeSrc_to_mentee_slider"
+            app:destination="@id/mentee_slider" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentorSrc"
+        android:name="com.example.proconomyapp.mentorSrc"
+        android:label="fragment_mentor_src"
+        tools:layout="@layout/fragment_mentor_src" >
+        <action
+            android:id="@+id/action_mentorSrc_to_mentor_slider"
+            app:destination="@id/mentor_slider" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentee_slider"
+        android:name="com.example.proconomyapp.mentee_slider"
+        android:label="fragment_mentee_slider"
+        tools:layout="@layout/fragment_mentee_slider" >
+        <action
+            android:id="@+id/action_mentee_slider_to_mentee_slider2"
+            app:destination="@id/mentee_slider2" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentee_slider2"
+        android:name="com.example.proconomyapp.mentee_slider2"
+        android:label="fragment_mentee_slider2"
+        tools:layout="@layout/fragment_mentee_slider2" >
+        <action
+            android:id="@+id/action_mentee_slider2_to_mentee_slider3"
+            app:destination="@id/mentee_slider3" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentee_slider3"
+        android:name="com.example.proconomyapp.mentee_slider3"
+        android:label="fragment_mentee_slider3"
+        tools:layout="@layout/fragment_mentee_slider3" />
+    <fragment
+        android:id="@+id/mentor_slider"
+        android:name="com.example.proconomyapp.mentor_slider"
+        android:label="fragment_mentor_slider"
+        tools:layout="@layout/fragment_mentor_slider" >
+        <action
+            android:id="@+id/action_mentor_slider_to_mentor_slider2"
+            app:destination="@id/mentor_slider2" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentor_slider2"
+        android:name="com.example.proconomyapp.mentor_slider2"
+        android:label="fragment_mentor_slider2"
+        tools:layout="@layout/fragment_mentor_slider2" >
+        <action
+            android:id="@+id/action_mentor_slider2_to_mentor_slider3"
+            app:destination="@id/mentor_slider3" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentor_slider3"
+        android:name="com.example.proconomyapp.mentor_slider3"
+        android:label="fragment_mentor_slider3"
+        tools:layout="@layout/fragment_mentor_slider3" />
+</navigation>
