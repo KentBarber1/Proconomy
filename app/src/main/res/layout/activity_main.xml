@@ -35,7 +35,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.005"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
 
     <!-- Get expert advice for any field you want to pursue. -->
 
@@ -49,7 +50,7 @@
         android:layout_marginTop="38dp"
         android:layout_marginEnd="49dp"
         android:fontFamily="@font/nunito_bold"
-        android:gravity="left"
+        android:gravity="start"
         android:lineSpacingExtra="0sp"
         android:text="@string/get_expert_"
         android:textAppearance="@style/get_expert_"
@@ -79,27 +80,13 @@
 
 
     <Button
-        android:id="@+id/mentor"
+        android:id="@+id/mentorB"
         android:layout_width="318dp"
-        android:layout_height="44dp"
+        android:layout_height="48dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginEnd="47dp"
-        android:background="@drawable/master"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/which_appli" />
-
-    <Button
-        android:id="@+id/mentor1"
-        android:layout_width="318dp"
-        android:layout_height="44dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="46dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="47dp"
         android:background="@drawable/master"
         android:fontFamily="@font/nunito_bold"
@@ -107,52 +94,32 @@
         android:text="@string/i_m_mentor"
         android:textAlignment="center"
         android:textAllCaps="false"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/which_appli" />
 
-        <Button
-            android:id="@+id/mentorB"
-            android:layout_width="318dp"
-            android:layout_height="44dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="46dp"
-            android:layout_marginTop="6dp"
-            android:layout_marginEnd="47dp"
-            android:background="@drawable/master"
-            android:fontFamily="@font/nunito_bold"
-            android:onClick="mentorClick"
-            android:text="@string/i_m_mentor"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textSize="20dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/which_appli" />
-
-
-        <Button
-            android:id="@+id/menteeB"
-            android:layout_width="318dp"
-            android:layout_height="44dp"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:layout_marginStart="46dp"
-            android:layout_marginTop="23dp"
-            android:layout_marginEnd="47dp"
-            android:background="@drawable/master"
-            android:fontFamily="@font/nunito_bold"
-            android:onClick="menteeClick"
-            android:text="@string/i_m_mentee"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textSize="20dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/mentorB" />
+    <Button
+        android:id="@+id/menteeB"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="47dp"
+        android:background="@drawable/master"
+        android:fontFamily="@font/nunito_bold"
+        android:onClick="menteeClick"
+        android:text="@string/i_m_mentee"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mentorB" />
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/barrier2"

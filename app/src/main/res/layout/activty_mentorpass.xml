@@ -54,8 +54,10 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:lines ="1"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:textColorHint="#0277BD"
+            tools:ignore="TextContrastCheck" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -110,6 +112,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/white"
+        android:contentDescription="@string/backbutton"
+        android:minHeight="48dp"
         android:onClick="backClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -124,6 +128,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/continue_but" />
+        app:srcCompat="@drawable/continue_but"
+        android:contentDescription="@string/complete_your_details" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

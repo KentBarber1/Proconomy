@@ -17,7 +17,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
 
     <TextView
         android:id="@+id/textView7"
@@ -57,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@color/white"
-        android:contentDescription="google_signin"
+        android:contentDescription="@string/google_signin"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@color/white"
-        android:contentDescription="facebook_signin"
+        android:contentDescription="@string/facebook_signin"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,5 +95,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/ic_button__3_" />
+        app:srcCompat="@drawable/ic_button__3_"
+        android:contentDescription="@string/sign_up_with_email"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

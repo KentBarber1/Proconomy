@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@null"
+        android:contentDescription="@string/complete_your_details"
         android:onClick="completeDetails"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,6 +28,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:background="@color/white"
+        android:contentDescription="@string/backbutton"
+        android:minHeight="48dp"
         android:onClick="backClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -39,7 +42,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="60dp"
         android:layout_marginBottom="12dp"
-        android:text="Your desired occupation"
+        android:text="@string/your_desired_occupation"
         android:textColor="#1685C4"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
@@ -54,7 +57,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:text="Choose up to 3 items that best describe your 'dream' industries."
+        android:text="@string/choose_up_to_3_items_that_best_describe_your_dream_industries"
         android:textColor="#727272"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,7 +84,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Technology"
+            android:text="@string/technology"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -89,7 +92,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Finance"
+            android:text="@string/finance"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -97,7 +100,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Law"
+            android:text="@string/law"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -105,7 +108,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Real-Estate"
+            android:text="@string/real_estate"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -113,7 +116,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Advertising"
+            android:text="@string/advertising"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -121,7 +124,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="FinTech"
+            android:text="@string/fintech"
             app:checkedIconEnabled="true" />
     </com.google.android.material.chip.ChipGroup>
 
@@ -129,9 +132,9 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15sp"
+        android:layout_marginStart="15sp"
         android:layout_marginTop="244dp"
-        android:text="Services you're looking for"
+        android:text="@string/services_you_re_looking_for"
         android:textColor="#1685C4"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -143,8 +146,8 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15sp"
-        android:text="Select up to 3 tools you'll need to succeed."
+        android:layout_marginStart="15sp"
+        android:text="@string/select_up_to_3_tools_you_ll_need_to_succeed"
         android:textColor="#727272"
         android:textSize="16sp"
         android:layout_marginBottom="12dp"
@@ -175,7 +178,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Portfolio Review"
+            android:text="@string/portfolio_review"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -183,7 +186,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Resume Prep"
+            android:text="@string/resume_prep"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -191,7 +194,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Career Advice"
+            android:text="@string/career_advice"
             app:checkedIconEnabled="true" />
 
         <com.google.android.material.chip.Chip
@@ -199,7 +202,7 @@
             style="@style/Widget.MaterialComponents.Chip.Filter"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Licenses &amp; Certs"
+            android:text="@string/licenses_amp_certs"
             app:checkedIconEnabled="true" />
     </com.google.android.material.chip.ChipGroup>
 
@@ -207,9 +210,9 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15sp"
+        android:layout_marginStart="15sp"
         android:layout_marginTop="8dp"
-        android:text="Availability you'll need"
+        android:text="@string/availability_you_ll_need"
         android:textColor="#1685C4"
         android:textSize="24sp"
 
@@ -224,8 +227,8 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="15sp"
-        android:text="Choose how much time you need."
+        android:layout_marginStart="15sp"
+        android:text="@string/choose_how_much_time_you_need"
         android:textColor="#727272
 "
         android:textSize="16sp"

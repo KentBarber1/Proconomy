@@ -58,7 +58,7 @@
         "technologically advanced and open to imagination and magic.\n"
         "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
         "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility xof the material creates new affordances that supercede those in the physical "
+        "flexibility of the material creates new affordances that supercede those in the physical "
         "world, without breaking the rules of physics.\n"
         "The fundamentals of light, surface, and movement are key to conveying how objects move, "
         "interact, and exist in space and in relation to each other. Realistic lighting shows "
@@ -144,6 +144,30 @@
     <string name="resume_prep">Resume Prep 10 mentors available</string>
     <string name="real_state">Learn the basics of real estate</string>
     <string name="learn_servcie">Mentors available for these services</string>
+    <string name="backbutton">backbutton</string>
+    <string name="complete_your_details">Complete your details</string>
+    <string name="sign_in_with_email">Sign in with email</string>
+    <string name="facebook_signin">Facebook_signin</string>
+    <string name="google_signin">Google_signin</string>
+    <string name="logo">Logo</string>
+    <string name="your_desired_occupation">Your desired occupation</string>
+    <string name="real_estate">Real-Estate</string>
+    <string name="advertising">Advertising</string>
+    <string name="fintech">FinTech</string>
+    <string name="services_you_re_looking_for">Services you\'re looking for</string>
+    <string name="finance">Finance</string>
+    <string name="law">Law</string>
+    <string name="technology">Technology</string>
+    <string name="choose_up_to_3_items_that_best_describe_your_dream_industries">Choose up to 3 items that best describe your \'dream\' industries.</string>
+    <string name="portfolio_review">Portfolio Review</string>
+    <string name="career_advice">Career Advice</string>
+    <string name="licenses_amp_certs"><![CDATA[Licenses & Certs]]></string>
+    <string name="availability_you_ll_need">Availability you\'ll need</string>
+    <string name="choose_how_much_time_you_need">Choose how much time you need.</string>
+    <string name="select_up_to_3_tools_you_ll_need_to_succeed">Select up to 3 tools you\'ll need to succeed.</string>
+    <string name="sign_up_with_email">Sign up with email</string>
+    <string name="tell_us_about_yourself">Tell us about yourself.</string>
+    <string name="i_m_currently">I\'m currently…</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="sell_your">Sell your insider advice to industry newcomers.</string>
