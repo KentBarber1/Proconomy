@@ -35,8 +35,4 @@ class view_calendar : AppCompatActivity() {
         startActivity(myIn)
     }
 
-    fun backClick(view: View){
-        val myIntent = Intent(this, MainActivity::class.java)
-        startActivity(myIntent)
-    }
 }
