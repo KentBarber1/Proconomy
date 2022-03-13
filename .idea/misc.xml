@@ -87,6 +87,7 @@
         <entry key="app/src/main/res/layout/activty_mentorpass.xml" value="0.24731903076171874" />
         <entry key="app/src/main/res/layout/activty_pass.xml" value="0.17962962962962964" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.12135416666666667" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/fragment_email_pass.xml" value="0.12777777777777777" />
         <entry key="app/src/main/res/layout/fragment_login_mentor.xml" value="0.12777777777777777" />
         <entry key="app/src/main/res/layout/fragment_logo.xml" value="0.21510416666666668" />
