@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mentee_register3">
+    tools:context=".register2">
 
     <ImageButton
         android:id="@+id/next3"
@@ -13,10 +13,10 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="-1dp"
         android:background="@null"
+        android:contentDescription="@string/complete_your_details"
         android:onClick="menteeRegister_4"
         app:layout_constraintHorizontal_bias="0.0"
-        app:srcCompat="@drawable/continue_but"
-        android:contentDescription="@string/complete_your_details" />
+        app:srcCompat="@drawable/continue_but" />
 
     <ImageView
         android:id="@+id/imageView4"

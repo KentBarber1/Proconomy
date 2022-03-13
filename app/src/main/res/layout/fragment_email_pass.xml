@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mentee_register">
+    tools:context=".email_pass">
 
     <ImageButton
         android:id="@+id/next"
@@ -128,5 +128,3 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_back_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-

@@ -7,20 +7,6 @@
     tools:context=".MainAc">
 
 
-    <TextView
-        android:id="@+id/skip_this"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="20dp"
-        android:fontFamily="@font/nunito_bold"
-        android:gravity="top"
-        android:lineSpacingExtra="2sp"
-        android:text="@string/skip_this"
-        android:textAppearance="@style/skip_this"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="96dp"
@@ -158,6 +144,5 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:barrierDirection="top"
-        app:constraint_referenced_ids="skip_this"
         tools:layout_editor_absoluteY="64dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

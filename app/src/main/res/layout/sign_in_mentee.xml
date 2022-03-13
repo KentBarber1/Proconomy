@@ -75,7 +75,7 @@
         android:background="@color/white"
         android:contentDescription="@string/facebook_signin"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton3"
+        app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +83,7 @@
         app:srcCompat="@drawable/ic_button__2__" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"

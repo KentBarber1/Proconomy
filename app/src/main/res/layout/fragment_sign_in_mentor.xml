@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mentor_3signin">
+    tools:context=".sign_in_mentor">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -95,5 +95,5 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/ic_button__3_" />
+        app:srcCompat="@drawable/ic_button_copy_5" />
 </androidx.constraintlayout.widget.ConstraintLayout>
