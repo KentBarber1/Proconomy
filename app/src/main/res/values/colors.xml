@@ -8,5 +8,8 @@
     <color name="gray">#919191</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
+    <color name="Neutral03">#919191</color>
+    <color name="Neutral04">#727272</color>
+    <color name="Warning01">#F8F2CD</color>
+    <color name="Warning02">#D77902</color>
 </resources>
