@@ -17,12 +17,15 @@
         <entry key="..\:/Proconomy/app/src/main/res/drawable/ic_share_profile.xml" value="0.2537037037037037" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/icon_back.xml" value="0.14635416666666667" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/master.xml" value="0.14739583333333334" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/my_rating_bar.xml" value="0.14895833333333333" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/myratingbar.xml" value="0.14895833333333333" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/offers_blue_cir.xml" value="0.26666666666666666" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/offers_button.xml" value="0.26666666666666666" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/offers_icon.xml" value="0.26666666666666666" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/rating_bar_empty.xml" value="0.14895833333333333" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/rating_bar_filled.xml" value="0.14895833333333333" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/rating_empty.xml" value="0.14895833333333333" />
+        <entry key="..\:/Proconomy/app/src/main/res/drawable/rating_filled.xml" value="0.14895833333333333" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/rating_star.xml" value="0.2703125" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/rounded_button.xml" value="0.2703125" />
         <entry key="..\:/Proconomy/app/src/main/res/drawable/star_filled.xml" value="0.14895833333333333" />
@@ -43,7 +46,7 @@
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_menteescr.xml" value="0.2" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_availability.xml" value="0.2463768115942029" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_log.xml" value="0.1" />
-        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_profile.xml" value="0.2" />
+        <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_profile.xml" value="0.176" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register2.xml" value="0.1" />
         <entry key="..\:/Proconomy/app/src/main/res/layout/activity_mentor_register3.xml" value="0.13333333333333333" />

@@ -60,4 +60,6 @@
     <string name="social_text">View Frank\'s certifications and professional history.</string>
     <string name="prev_work_text">Frank\'s most recent projects can be viewed below.</string>
     <string name="reviews_text">See reviews left by mentees</string>
+    <string name="rev_1_comment">Frank was super helpful with his experience and knowledge of the industry. With just 2 weeks of reviewing, I was able ...</string>
+    <string name="rev_2_comment">Frank was super helpful with his experience and knowledge of the industry. With just 2 weeks of reviewing, I was able ...</string>
 </resources>
