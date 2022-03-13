@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".mentor_3signin">
+    tools:context=".mentee_login">
 
     <ImageView
         android:id="@+id/imageView3"
@@ -17,7 +17,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.3"
         app:layout_constraintVertical_chainStyle="packed"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo" />
 
     <TextView
         android:id="@+id/textView7"
@@ -26,28 +27,28 @@
         android:layout_marginTop="15dp"
         android:width="307dp"
         android:fontFamily="@font/nunito_bold"
-        android:text="@string/monetize"
+        android:text="@string/hire"
         android:textColor="@color/black"
         android:textSize="32sp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintHorizontal_bias="0.69"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="250dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:width="307dp"
         android:fontFamily="@font/nunito_regular"
-        android:text="@string/give_advice"
+        android:text="@string/get_insider"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintHorizontal_bias="0.72"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
@@ -57,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@color/white"
-        android:contentDescription="google_signin"
+        android:contentDescription="@string/google_signin"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +73,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@color/white"
-        android:contentDescription="facebook_signin"
+        android:contentDescription="@string/facebook_signin"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/email"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +88,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:background="@color/white"
-        android:contentDescription="email_signin"
         android:minHeight="48dp"
         android:onClick="email_sign"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -95,5 +95,6 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton2"
-        app:srcCompat="@drawable/ic_button__3_" />
+        app:srcCompat="@drawable/ic_button__3_"
+        android:contentDescription="@string/sign_up_with_email"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

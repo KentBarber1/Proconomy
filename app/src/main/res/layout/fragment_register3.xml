@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ffffff"
-    tools:context=".mentee_register4">
+    tools:context=".register3">
 
 
     <ImageButton
@@ -252,4 +252,3 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-
