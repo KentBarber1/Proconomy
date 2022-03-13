@@ -65,6 +65,7 @@
         <entry key="app/src/main/res/layout/activity_mentee_register2.xml" value="0.20145009358723956" />
         <entry key="app/src/main/res/layout/activity_mentee_register3.xml" value="0.2189565022786458" />
         <entry key="app/src/main/res/layout/activity_mentee_register4.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_mentee_select_time.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/activity_mentee_slide1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_mentee_slide2.xml" value="0.15364583333333334" />
         <entry key="app/src/main/res/layout/activity_mentee_slide3.xml" value="0.15364583333333334" />
@@ -120,6 +121,9 @@
         <entry key="app/src/main/res/layout/sign_in_mentor.xml" value="0.182518115942029" />
       </map>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/proconomyapp/mentee_register3.kt" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

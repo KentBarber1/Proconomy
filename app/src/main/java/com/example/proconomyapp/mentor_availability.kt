@@ -50,8 +50,5 @@ class mentor_availability : AppCompatActivity() {
         }
     }
 
-    fun backClick(view: View){
-        val myIntent = Intent(this, MainActivity::class.java)
-        startActivity(myIntent)
-    }
+
 }
