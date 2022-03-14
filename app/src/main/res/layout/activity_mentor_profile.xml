@@ -300,7 +300,6 @@
             app:layout_constraintTop_toBottomOf="@id/ser_1_des"
             app:layout_constraintLeft_toRightOf="@id/profile_guideline"
             android:layout_marginTop="15dp"
-            android:onClick="seeAvailability"
             />
 
 <!--        end of service 1 -->
