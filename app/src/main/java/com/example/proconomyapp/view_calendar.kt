@@ -35,8 +35,5 @@ class view_calendar : AppCompatActivity() {
         startActivity(myIn)
     }
 
-    fun backClick(view: View){
-        val myIntent = Intent(this, mentor_profile::class.java)
-        startActivity(myIntent)
-    }
+
 }

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register2">
+
+    <ImageButton
+        android:id="@+id/next3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-1dp"
+        android:background="@null"
+        android:contentDescription="@string/complete_your_details"
+        android:onClick="menteeRegister_4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:srcCompat="@drawable/continue_but" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15sp"
+        android:minHeight="48dp"
+        android:onClick="backClick"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button"
+        android:contentDescription="@string/backbutton" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="105dp"
+        android:text="@string/tell_us_about_yourself"
+        android:textColor="#1685C4"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="140dp"
+        android:text="@string/i_m_currently"
+        android:textColor="#727272
+"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <ListView
+        android:id="@+id/choiceList"
+        android:layout_width="293sp"
+        android:layout_height="245sp"
+        android:layout_marginStart="60sp"
+        android:layout_marginTop="190dp" />
+
+</RelativeLayout>
