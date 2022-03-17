@@ -45,6 +45,23 @@
     <string name="work_direct">"Work directly with a mentor and received services that will you help you get to the next best place in your career. "</string>
     <string name="personalize">Personalize your search.</string>
     <string name="search_for_">Search for mentors in any field, and start learning how to get into the industry you want to work in.</string>
+    <string name="dollar">$25.00</string>
+    <string name="mentor_name">Frank Oboye,\ </string>
+    <string name="mentor_occupation">UX Designer</string>
+    <string name="profile_employment">Currently employed full-time at CBORD \nSince July 2018</string>
+    <string name="see_av">See Availability</string>
+    <string name="discount">Offers special discounts</string>
+    <string name="night_session">Offers nightly sessions</string>
+    <string name="intro_para">I offer services tailored to emerging professionals, including industry standard advice, portfolio design, and resume review services for the budding practitioner. I charge weekly and require an initial payment before our first consultation. \nAs part of my promise to you, I create a curriculum with your plans and goals in mind. I typically work with clients over a 4 to 6-week period and by the end of our collaboration, you\'ll have a portfolio and resume that is industry-ready.\n
+</string>
+    <string name="ser_1_des">A guided weekly website building and case study session from start to finish.</string>
+    <string name="ser_2_des">A review of your resume and work experience in which I provide an overview of its potential value in the market.</string>
+    <string name="ser_3_des">A guided weekly website building and case study session from start to finish.</string>
+    <string name="social_text">View Frank\'s certifications and professional history.</string>
+    <string name="prev_work_text">Frank\'s most recent projects can be viewed below.</string>
+    <string name="reviews_text">See reviews left by mentees</string>
+    <string name="rev_1_comment">Frank was super helpful with his experience and knowledge of the industry. With just 2 weeks of reviewing, I was able ...</string>
+    <string name="rev_2_comment">Frank was super helpful with his experience and knowledge of the industry. With just 2 weeks of reviewing, I was able ...</string>
     <string name="keep_update">We’d like to keep you updated.</string>
     <string name="by_turning_on">By turning on your notification settings, you’ll know when your mentors are reaching out.</string>
     <string name="loc_ser">Turn on location services?</string>
@@ -175,6 +192,5 @@
     <string name="facebook_app_id">1882715271918744</string>
     <string name="fb_login_protocol_scheme">fb1882715271918744</string>
     <string name="facebook_client_token">72b186ba350e2b9b10d599b495eeee51</string>
-
 
 </resources>
