@@ -89,7 +89,7 @@
             android:name=".MenteeSlide3"
             android:exported="false" />
         <activity
-            android:name=".mentor_profile"
+            android:name=".MentorRegister"
             android:exported="false" />
         <activity
             android:name=".LogoActivity"
