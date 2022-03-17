@@ -54,13 +54,4 @@
             #000000
         </item>
     </style>
-
-    <style name="corneredSquare">
-        <item name="cornerSize">10%</item>
-    </style>
-
-    <style name="offers">
-        <item name="cornerSize">50%</item>
-    </style>
-
 </resources>

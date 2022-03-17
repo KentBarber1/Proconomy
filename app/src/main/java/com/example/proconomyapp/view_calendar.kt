@@ -35,5 +35,4 @@ class view_calendar : AppCompatActivity() {
         startActivity(myIn)
     }
 
-
 }
