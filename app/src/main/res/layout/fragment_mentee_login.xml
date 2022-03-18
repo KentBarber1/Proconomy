@@ -60,7 +60,7 @@
         android:background="@color/white"
         android:contentDescription="@string/google_signin"
         android:minHeight="48dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
+        app:layout_constraintBottom_toTopOf="@+id/faceLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +68,7 @@
         app:srcCompat="@drawable/ic_button__1_" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/faceLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
@@ -94,7 +94,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton2"
+        app:layout_constraintTop_toBottomOf="@+id/faceLogin"
         app:srcCompat="@drawable/ic_button__3_"
         android:contentDescription="@string/sign_up_with_email"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
