@@ -5,7 +5,11 @@
     <color name="Primary02">#126FA3</color>
     <color name="Primary03">#0F4F83</color>
     <color name="Primary04">#041F2F</color>
-    <color name="gray">#727272</color>
+    <color name="gray">#919191</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="Neutral03">#919191</color>
+    <color name="Neutral04">#727272</color>
+    <color name="Warning01">#F8F2CD</color>
+    <color name="Warning02">#D77902</color>
 </resources>
