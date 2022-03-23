@@ -30,8 +30,12 @@
         <entry key="..\:/proconomyapp/app/src/main/res/layout/activity_menteescr.xml" value="0.1111111111111111" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.113" />
         <entry key="app/src/main/res/drawable-v24/rectangle_1441.xml" value="0.1065" />
+        <entry key="app/src/main/res/drawable/back_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/continue_.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/continue_but.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_amico.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_android_quad_tab_item.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_android_quad_tab_item_copy.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_back_button.xml" value="0.1255" />
         <entry key="app/src/main/res/drawable/ic_button.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_button__1_.xml" value="0.113" />
@@ -82,14 +86,17 @@
         <entry key="app/src/main/res/layout/activity_notification_turn.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_password_log.xml" value="0.13737945556640627" />
         <entry key="app/src/main/res/layout/activity_scrolling.xml" value="0.21388888888888888" />
-        <entry key="app/src/main/res/layout/activity_searching.xml" value="0.20415649414062503" />
+        <entry key="app/src/main/res/layout/activity_searching.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_turn_location.xml" value="0.18020833333333333" />
         <entry key="app/src/main/res/layout/activity_view_calendar.xml" value="0.14397583007812503" />
         <entry key="app/src/main/res/layout/activty_mentorpass.xml" value="0.24731903076171874" />
         <entry key="app/src/main/res/layout/activty_pass.xml" value="0.17962962962962964" />
         <entry key="app/src/main/res/layout/content_scrolling.xml" value="0.12135416666666667" />
+        <entry key="app/src/main/res/layout/drop_down_item.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.2546875" />
         <entry key="app/src/main/res/layout/fragment_email_pass.xml" value="0.12777777777777777" />
+        <entry key="app/src/main/res/layout/fragment_email_pass_mentee.xml" value="0.1527777777777778" />
+        <entry key="app/src/main/res/layout/fragment_list_profile.xml" value="0.16296296296296298" />
         <entry key="app/src/main/res/layout/fragment_login_mentor.xml" value="0.12777777777777777" />
         <entry key="app/src/main/res/layout/fragment_logo.xml" value="0.21510416666666668" />
         <entry key="app/src/main/res/layout/fragment_main_ac.xml" value="0.22916666666666666" />
@@ -101,29 +108,36 @@
         <entry key="app/src/main/res/layout/fragment_mentee_slider3.xml" value="0.11875" />
         <entry key="app/src/main/res/layout/fragment_mentee_src.xml" value="0.21510416666666668" />
         <entry key="app/src/main/res/layout/fragment_mentor_in2.xml" value="0.12777777777777777" />
+        <entry key="app/src/main/res/layout/fragment_mentor_pass.xml" value="0.1527777777777778" />
         <entry key="app/src/main/res/layout/fragment_mentor_slider.xml" value="0.11875" />
         <entry key="app/src/main/res/layout/fragment_mentor_slider2.xml" value="0.11875" />
         <entry key="app/src/main/res/layout/fragment_mentor_slider3.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_mentor_src.xml" value="0.15925925925925927" />
+        <entry key="app/src/main/res/layout/fragment_profile_des.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_profile_pic.xml" value="0.16296296296296298" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.12777777777777777" />
         <entry key="app/src/main/res/layout/fragment_register2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_register2_mentor.xml" value="0.2583197699652778" />
         <entry key="app/src/main/res/layout/fragment_register3.xml" value="0.12777777777777777" />
+        <entry key="app/src/main/res/layout/fragment_register3_mentor.xml" value="0.16296296296296298" />
+        <entry key="app/src/main/res/layout/fragment_register_mentor.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_resgiter4.xml" value="0.12777777777777777" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/fragment_sign_in_mentee.xml" value="0.12777777777777777" />
         <entry key="app/src/main/res/layout/fragment_sign_in_mentor.xml" value="0.12777777777777777" />
         <entry key="app/src/main/res/layout/fragment_signing_in.xml" value="0.12777777777777777" />
         <entry key="app/src/main/res/layout/fragment_turn_loc.xml" value="0.12777777777777777" />
+        <entry key="app/src/main/res/layout/fragment_visual_alb.xml" value="0.1659637451171875" />
         <entry key="app/src/main/res/layout/layout.xml" value="0.21481481481481482" />
         <entry key="app/src/main/res/layout/login_mentee.xml" value="0.1" />
         <entry key="app/src/main/res/layout/logo_page.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/mainpage1.xml" value="0.14293670654296875" />
+        <entry key="app/src/main/res/layout/search_bar_part.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/layout/section_comp.xml" value="0.17395833333333333" />
         <entry key="app/src/main/res/layout/sign_in_mentee.xml" value="0.1" />
         <entry key="app/src/main/res/layout/sign_in_mentor.xml" value="0.182518115942029" />
       </map>
     </option>
-  </component>
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/proconomyapp/mentee_register3.kt" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />

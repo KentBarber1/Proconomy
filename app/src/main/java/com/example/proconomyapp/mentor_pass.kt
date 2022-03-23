@@ -9,11 +9,11 @@ import android.widget.ImageButton
 import androidx.navigation.fragment.findNavController
 
 
+private const val ARG_PARAM1 = "param1"
+private const val ARG_PARAM2 = "param2"
 
 
-
-class email_pass : Fragment() {
-
+class mentor_pass : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -23,7 +23,7 @@ class email_pass : Fragment() {
         val view =  inflater.inflate(R.layout.fragment_email_pass, container, false)
         val button = view.findViewById<ImageButton>(R.id.next)
         button.setOnClickListener{
-            findNavController().navigate(R.id.action_email_pass_to_register)
+            findNavController().navigate(R.id.action_mentor_pass_to_register_mentor)
         }
         return view
     }

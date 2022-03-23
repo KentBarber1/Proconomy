@@ -12,7 +12,8 @@ import androidx.navigation.fragment.findNavController
 
 
 
-class email_pass : Fragment() {
+class register_mentor : Fragment() {
+
 
 
     override fun onCreateView(
@@ -20,11 +21,12 @@ class email_pass : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view =  inflater.inflate(R.layout.fragment_email_pass, container, false)
-        val button = view.findViewById<ImageButton>(R.id.next)
-        button.setOnClickListener{
-            findNavController().navigate(R.id.action_email_pass_to_register)
+        val view = inflater.inflate(R.layout.fragment_register, container, false)
+        val button = view.findViewById<ImageButton>(R.id.next2)
+        button.setOnClickListener {
+            findNavController().navigate(R.id.action_register_mentor_to_register2_mentor)
         }
+
         return view
     }
 
