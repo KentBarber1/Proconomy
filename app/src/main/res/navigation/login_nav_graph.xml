@@ -124,8 +124,8 @@
         android:label="fragment_login_mentor"
         tools:layout="@layout/fragment_login_mentor" >
         <action
-            android:id="@+id/action_login_mentor_to_email_pass"
-            app:destination="@id/email_pass" />
+            android:id="@+id/action_login_mentor_to_mentor_pass"
+            app:destination="@id/mentor_pass" />
     </fragment>
     <fragment
         android:id="@+id/email_pass"
@@ -205,4 +205,76 @@
         android:name="com.example.proconomyapp.mentor_in2"
         android:label="fragment_mentor_in2"
         tools:layout="@layout/fragment_mentor_in2" />
+    <fragment
+        android:id="@+id/mentor_pass"
+        android:name="com.example.proconomyapp.mentor_pass"
+        android:label="fragment_mentor_pass"
+        tools:layout="@layout/fragment_mentor_pass" >
+        <action
+            android:id="@+id/action_mentor_pass_to_register_mentor"
+            app:destination="@id/register_mentor" />
+    </fragment>
+    <fragment
+        android:id="@+id/register_mentor"
+        android:name="com.example.proconomyapp.register_mentor"
+        android:label="fragment_register_mentor"
+        tools:layout="@layout/fragment_register_mentor" >
+        <action
+            android:id="@+id/action_register_mentor_to_register2_mentor"
+            app:destination="@id/register2_mentor" />
+    </fragment>
+    <fragment
+        android:id="@+id/register2_mentor"
+        android:name="com.example.proconomyapp.register2_mentor"
+        android:label="fragment_register2_mentor"
+        tools:layout="@layout/fragment_register2_mentor" >
+        <action
+            android:id="@+id/action_register2_mentor_to_register3_mentor"
+            app:destination="@id/register3_mentor" />
+    </fragment>
+    <fragment
+        android:id="@+id/register3_mentor"
+        android:name="com.example.proconomyapp.register3_mentor"
+        android:label="fragment_register3_mentor"
+        tools:layout="@layout/fragment_register3_mentor" >
+        <action
+            android:id="@+id/action_register3_mentor_to_profile_des"
+            app:destination="@id/profile_des" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile_des"
+        android:name="com.example.proconomyapp.profile_des"
+        android:label="fragment_profile_des"
+        tools:layout="@layout/fragment_profile_des" >
+        <action
+            android:id="@+id/action_profile_des_to_visual_alb"
+            app:destination="@id/visual_alb" />
+    </fragment>
+    <fragment
+        android:id="@+id/visual_alb"
+        android:name="com.example.proconomyapp.visual_alb"
+        android:label="fragment_visual_alb"
+        tools:layout="@layout/fragment_visual_alb" >
+        <action
+            android:id="@+id/action_visual_alb_to_profile_pic"
+            app:destination="@id/profile_pic" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile_pic"
+        android:name="com.example.proconomyapp.profile_pic"
+        android:label="fragment_profile_pic"
+        tools:layout="@layout/fragment_profile_pic" >
+        <action
+            android:id="@+id/action_profile_pic_to_list_profile"
+            app:destination="@id/list_profile" />
+    </fragment>
+    <fragment
+        android:id="@+id/list_profile"
+        android:name="com.example.proconomyapp.list_profile"
+        android:label="fragment_list_profile"
+        tools:layout="@layout/fragment_list_profile" >
+        <action
+            android:id="@+id/action_list_profile_to_resgiter4"
+            app:destination="@id/resgiter4" />
+    </fragment>
 </navigation>

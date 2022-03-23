@@ -9,24 +9,19 @@ import android.widget.ImageButton
 import androidx.navigation.fragment.findNavController
 
 
-
-
-
-class email_pass : Fragment() {
-
+class visual_alb : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view =  inflater.inflate(R.layout.fragment_email_pass, container, false)
-        val button = view.findViewById<ImageButton>(R.id.next)
-        button.setOnClickListener{
-            findNavController().navigate(R.id.action_email_pass_to_register)
+        val view =  inflater.inflate(R.layout.fragment_visual_alb, container, false)
+        val button = view.findViewById<ImageButton>(R.id.next3)
+        button.setOnClickListener {
+            findNavController().navigate(R.id.action_visual_alb_to_profile_pic)
         }
         return view
     }
-
 
 }

@@ -43,7 +43,7 @@ class login_mentor : Fragment() {
         val view =  inflater.inflate(R.layout.fragment_login_mentor, container, false)
         val button = view.findViewById<ImageButton>(R.id.email)
         button.setOnClickListener{
-            findNavController().navigate(R.id.action_login_mentor_to_email_pass)
+            findNavController().navigate(R.id.action_login_mentor_to_mentor_pass)
         }
         create_request()
         val google = view.findViewById<ImageButton>(R.id.google_s)
