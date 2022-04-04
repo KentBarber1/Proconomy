@@ -14,7 +14,19 @@
       },
       "oauth_client": [
         {
+<<<<<<< Updated upstream
           "client_id": "998656981315-pfhku6v3qpmktfq6p6but98ss908glii.apps.googleusercontent.com",
+=======
+          "client_id": "30412690260-e4pvjq3vfshgv06lg1u3q54avf2kemhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proconomyapp",
+            "certificate_hash": "614744c16409e809425ccb1b2eeaa6247d3becd7"
+          }
+        }, 
+        {
+          "client_id": "30412690260-p6ro3cumc9gb79pmv02k3uua0s2fkbhq.apps.googleusercontent.com",
+>>>>>>> Stashed changes
           "client_type": 3
         }
       ],
