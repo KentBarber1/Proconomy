@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/explore_tab"
+        android:title="Explore"
+        android:icon="@drawable/ic_explore"/>
+    <item
+        android:id="@+id/favorite_tab"
+        android:title="Favorite"
+        android:icon="@drawable/ic_favorite"/>
+    <item
+        android:id="@+id/conversation_tab"
+        android:title="Conversations"
+        android:icon="@drawable/ic_conversations"/>
+    <item
+        android:id="@+id/account_tab"
+        android:title="Account"
+        android:icon="@drawable/ic_account"/>
+</menu>
