@@ -270,7 +270,6 @@
             android:layout_height="wrap_content"
             android:text="See more"
             android:textColor="@color/Primary01"
-            android:background="Null"
             android:textAllCaps="false"
             android:textSize="12dp"
             android:textFontWeight="400"

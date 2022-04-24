@@ -1,7 +1,15 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.ProconomyApp" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+<!--    <style name="Theme.ProconomyApp" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">-->
 
 
+<!--    </style>-->
+
+    <style name="Theme.ProconomyApp" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Primary01</item>
+        <item name="colorAccent">@color/Primary02</item>
+        <item name="colorOnPrimary">@color/Primary00</item>
     </style>
+
 </resources>
