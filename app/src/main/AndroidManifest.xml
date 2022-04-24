@@ -91,18 +91,23 @@
         <activity
             android:name=".mentor_profile"
             android:exported="false" />
+
+        <activity
+            android:name=".nav_bar_main"
+            android:exported="false">
+        </activity>
+
         <activity
             android:name=".LogoActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
 
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
