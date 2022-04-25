@@ -19,16 +19,27 @@ Proconomy version 1.0 primart feautures:
 ### prerequisite
 - Step 1 [Oracal Java Development Kit(JDK)](https://www.oracle.com/java/technologies/downloads/) download JDK instead of JRE
 - Step 2 [Android Studio](https://developer.android.com/studio) is needed to run the code and start the emulator
-### Dependent
+### installation
 - set up android emulator: (https://developer.android.com/studio/run/managing-avds) follow official documents
 to set up a emulator
 
 ### Instruction running the code
-* Download the zip file from github respository
+* Download the zip file from github respository by clicking the green button says code
 * Open the file in Android Studio
 * build gradle(dependency) 
 * run APP
 ### *** (https://youtu.be/6CIPovJxty8) short video guide on setting up emulator and run ***
+
+### trouble shoot 
+* common android studio trouble shoot (https://youtu.be/6CIPovJxty8)
+* screen show up close the tab or wait 
+solution: rerun the emulator
+* when running the code, screen pop up and disappeared check 
+solution: look at run tab in android studio, if necessary please contact us
+
+
+
+
 
 
 
