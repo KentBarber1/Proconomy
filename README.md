@@ -23,12 +23,12 @@ Proconomy version 1.0 primart feautures:
 - set up android emulator: (https://developer.android.com/studio/run/managing-avds) follow official documents
 to set up a emulator
 
-###Instruction running the code
+### Instruction running the code
 * Download the zip file from github respository
 * Open the file in Android Studio
 * build gradle(dependency) 
 * run APP
-***(https://youtu.be/6CIPovJxty8) short video guide on setting up emulator and run***
+*** (https://youtu.be/6CIPovJxty8) short video guide on setting up emulator and run ***
 
 
 
