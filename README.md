@@ -4,8 +4,7 @@
 * Install Guide
 ## release notes
 ### new software feature
-- Proconomy version 1.0
-- primart feautures:
+Proconomy version 1.0 primart feautures:
 * Mentor/Mentee login into using Google/Facebook
 * Sign in to exisiting account
 * Sign up using email and passwords
