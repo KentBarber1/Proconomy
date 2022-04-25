@@ -67,4 +67,10 @@
         <item name="colorPrimary">@color/gray</item>
     </style>
 
+    <style name="navigationBarStyle">
+        <item name="android:textSize">40dp</item><!-- text size in menu-->
+
+    </style>
+
+
 </resources>

@@ -34,9 +34,16 @@
         <activity
             android:name=".mentor_profile"
             android:exported="false" />
+
+        <activity
+            android:name=".nav_bar_main"
+            android:exported="false">
+        </activity>
+
         <activity
             android:name=".LogoActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

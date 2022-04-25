@@ -12,6 +12,8 @@
     <color name="Neutral04">#727272</color>
     <color name="Warning01">#F8F2CD</color>
     <color name="Warning02">#D77902</color>
+    <color name="Focused00">#EAF2FF</color>
+    <color name="Focused01">#7EAEFF</color>
     <color name="blue">#166DFF</color>
     <color name="brown">#D77902</color>
 </resources>

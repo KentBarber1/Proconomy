@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "998656981315",
-    "project_id": "proconomy-7c87f",
-    "storage_bucket": "proconomy-7c87f.appspot.com"
+    "project_number": "30412690260",
+    "firebase_url": "https://proconomy-74877-default-rtdb.firebaseio.com",
+    "project_id": "proconomy-74877",
+    "storage_bucket": "proconomy-74877.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:998656981315:android:a9b6d83a43adf4fca017f6",
+        "mobilesdk_app_id": "1:30412690260:android:80d96cd09d4e1c8d196ec1",
         "android_client_info": {
           "package_name": "com.example.proconomyapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "998656981315-pfhku6v3qpmktfq6p6but98ss908glii.apps.googleusercontent.com",
+          "client_id": "30412690260-e4pvjq3vfshgv06lg1u3q54avf2kemhu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proconomyapp",
+            "certificate_hash": "614744c16409e809425ccb1b2eeaa6247d3becd7"
+          }
+        },
+        {
+          "client_id": "30412690260-p6ro3cumc9gb79pmv02k3uua0s2fkbhq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA8FVXpjpVZyOiRDLbsfZQRj6IYy8-a9Qc"
+          "current_key": "AIzaSyC9553s-aHPvmiqzE0E1HzmPUuWb7El4zQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "998656981315-pfhku6v3qpmktfq6p6but98ss908glii.apps.googleusercontent.com",
+              "client_id": "30412690260-p6ro3cumc9gb79pmv02k3uua0s2fkbhq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

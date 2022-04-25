@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".mentor_profile"
+    android:fillViewport="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:context=".mentor_profile"
+        >
+
+        <TextView
+            android:id="@+id/fav_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:text="Your Favorites"
+            app:layout_constraintTop_toBottomOf="@id/fav_list_guideline_top"
+            app:layout_constraintLeft_toRightOf="@id/fav_list_guideline_left"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+<!--        first mentor profile -->
+        <RelativeLayout
+            android:id="@+id/fav_mentor_profile1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/fav_list_guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/fav_list_title"
+            app:layout_constraintEnd_toEndOf="@id/fav_list_guideline_right"
+            android:layout_marginTop="15dp"
+            >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/sqr_img"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+
+                android:src="@drawable/square_profile_image"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/sqr_img"
+                android:orientation="vertical">
+
+
+<!--                name and occupation -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/fav_mentor_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="@string/mentor_name"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/fav_mentor_name"
+                        android:fontFamily="@font/nunito_bold"
+                        android:text="@string/mentor_occupation"
+                        android:textColor="@color/black"
+                        android:textSize="18dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+
+                    <!--        working hour -->
+                    <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+
+                        >
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_centerVertical="true"
+                            android:background="@color/Focused00"
+                            app:shapeAppearanceOverlay="@style/offers"
+                            tools:layout_editor_absoluteX="34dp"
+                            tools:layout_editor_absoluteY="420dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/nunito_bold"
+                            android:text="1-3 hours/week"
+                            android:textColor="@color/Focused01"
+                            android:textSize="12dp" />
+                    </RelativeLayout>
+
+                    <!--                cost-->
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        >
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="20dp"
+                            android:layout_centerVertical="true"
+                            android:background="@color/Warning01"
+                            app:shapeAppearanceOverlay="@style/offers" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:fontFamily="@font/nunito_bold"
+                            android:text="$35/week"
+                            android:textColor="@color/Warning02"
+                            android:textSize="12dp"/>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+<!--                end of hour and cost-->
+
+<!--                offine -->
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/offline_circ"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/offline_circ"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toEndOf="@id/offline_circ"
+                        android:fontFamily="@font/nunito_regular"
+                        android:text="Offline"
+                        android:textColor="@color/gray"
+                        android:textSize="12dp" />
+                </RelativeLayout>
+<!--                end of offline -->
+
+
+<!--                rating -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/fav_rating1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/nunito_regular"
+                        android:text="4.0 Rating"
+                        android:textFontWeight="800"
+                        android:textColor="@color/Primary01"
+                        android:textSize="13dp" />
+
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/fav_stars1"
+                        android:layout_width="116dp"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        android:layout_toEndOf="@id/fav_rating1"
+                        >
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/star_unfilled"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="4dp"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/star_filled"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="4dp"/>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/star_filled"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="4dp"/>
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/star_filled"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="4dp"/>
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/star_filled"
+                            android:layout_weight="1"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="(9)"
+                        android:fontFamily="@font/nunito_bold"
+                        android:textSize="13dp"
+                        android:layout_toEndOf="@id/fav_stars1"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="10dp"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+<!--        first mentor des-->
+        <TextView
+
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="@id/fav_list_guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/fav_mentor_profile1"
+            app:layout_constraintEnd_toEndOf="@id/fav_list_guideline_right"
+            android:layout_marginTop="10dp"
+            android:id="@+id/fav_mentor_des1"
+            android:fontFamily="@font/nunito_regular"
+            android:text="@string/fav_des"
+            android:textColor="@color/black"
+            android:textSize="12dp"
+            android:textFontWeight="400"/>
+
+        <TextView
+            app:layout_constraintStart_toEndOf="@id/fav_list_guideline_left"
+            app:layout_constraintTop_toBottomOf="@id/fav_mentor_des1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See more"
+            android:textColor="@color/Primary01"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:textFontWeight="400"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/nunito_regular" />
+
+
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/fav_list_guideline_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="18dp"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/fav_list_guideline_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="28dp"
+            />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/fav_list_guideline_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="391dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintGuide_end="18dp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
