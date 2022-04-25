@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SingleMentorFragment"
+    android:fillViewport="true"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:context=".mentor_profile"
+        >
+
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="80px"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_back_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/shapeableImageView"
+            android:layout_width="380dp"
+            android:layout_height="202dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile_img"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toEndOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/back_button"
+            app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+
+        <LinearLayout
+            android:id="@+id/name_occu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/verified_mentor"
+            app:layout_constraintEnd_toStartOf="@+id/love_share"
+            app:layout_constraintStart_toEndOf="@id/profile_guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/shapeableImageView">
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/mentor_name"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/profile_occupation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/mentor_occupation"
+                android:textColor="@color/gray"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/love_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:paddingLeft="14dp"
+            app:layout_constraintEnd_toEndOf="@id/guideline5"
+            app:layout_constraintStart_toEndOf="@id/name_occu"
+            app:layout_constraintTop_toBottomOf="@id/shapeableImageView">
+
+            <Button
+                android:id="@+id/icons_share"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_share_profile"
+                app:layout_constraintEnd_toStartOf="@+id/icons_love"
+                app:layout_constraintStart_toEndOf="@+id/profile_occupation"
+                tools:layout_editor_absoluteY="317dp" />
+
+            <Button
+                android:id="@+id/icons_love"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_love_profile"
+                android:clipToOutline="true"
+                android:paddingLeft="6dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toEndOf="@+id/icons_share"
+                tools:layout_editor_absoluteY="317dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/verified_mentor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toEndOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/name_occu">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_verified_mentor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Verified Mentor"
+                android:textColor="@color/Primary01"
+                android:textSize="21dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/currently_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="top"
+            android:lineHeight="18sp"
+            android:lineSpacingExtra="2sp"
+            android:text="@string/profile_employment"
+            android:textColor="@color/black"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/verified_mentor" />
+
+        <TextView
+            android:id="@+id/profile_intro"
+            android:layout_width="378dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nunito_regular"
+            android:lineHeight="18sp"
+            android:text="@string/intro_para"
+            android:textColor="@color/black"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            app:layout_constraintTop_toBottomOf="@id/night_session" />
+
+        <View
+            android:id="@+id/div_line_intro"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/Neutral03"
+            app:layout_constraintTop_toBottomOf="@id/profile_intro" />
+
+        <TextView
+            android:id="@+id/certi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="24px"
+            android:text="Industry Certifications"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/div_line_intro" />
+
+        <LinearLayout
+            android:id="@+id/listview_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/certi_title">
+
+            <ListView
+                android:id="@+id/certifications"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:divider="@null" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/div_line_certi"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/Neutral03"
+            app:layout_constraintTop_toBottomOf="@id/listview_container" />
+
+
+        <TextView
+            android:id="@+id/services_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="28px"
+            android:textSize="22dp"
+            android:text="Services offered"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/div_line_certi" />
+
+        <!--        beginning of sevrice 1 -->
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/ser_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="18px"
+            android:text="Portfolio Building"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:paddingTop="10dp"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/services_title" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="8dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            app:layout_constraintTop_toBottomOf="@id/services_title"
+            >
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+
+                android:background="@color/Warning01"
+                app:shapeAppearanceOverlay="@style/offers" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/nunito_regular"
+                android:lineHeight="24px"
+                android:text="$35/week"
+                android:textColor="@color/Warning02"
+                android:textFontWeight="400" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ser_1_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/ser_1"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:text="@string/ser_1_des"
+            android:textSize="15dp"
+            android:fontFamily="@font/nunito_regular"
+            android:lineHeight="21sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/book_ser_1"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_button"
+            android:text="Book a session"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="18sp"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/ser_1_des"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:layout_marginTop="15dp"
+            />
+
+        <!--        end of service 1 -->
+
+        <!--        beginning of sevrice 2 -->
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/ser_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="18px"
+            android:text="Resume Review"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:paddingTop="30dp"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/book_ser_1" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            app:layout_constraintTop_toBottomOf="@id/book_ser_1"
+            >
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+
+                android:background="@color/Warning01"
+                app:shapeAppearanceOverlay="@style/offers" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/nunito_regular"
+                android:lineHeight="24px"
+                android:text="$25/week"
+                android:textColor="@color/Warning02"
+                android:textFontWeight="400" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ser_2_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/ser_2"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:text="@string/ser_2_des"
+            android:textSize="15dp"
+            android:fontFamily="@font/nunito_regular"
+            android:lineHeight="21sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/book_ser_2"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_button"
+            android:text="Book a session"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="18sp"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/ser_2_des"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:layout_marginTop="15dp"
+            />
+
+        <!--        end of service 2 -->
+
+        <!--        beginning of sevrice 3 -->
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/ser_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="18px"
+            android:text="Design Coaching &amp; Review"
+            android:textColor="@color/black"
+            android:textFontWeight="400"
+            android:paddingTop="30dp"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/book_ser_2" />
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            app:layout_constraintTop_toBottomOf="@id/book_ser_2"
+            >
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+
+                android:background="@color/Warning01"
+                app:shapeAppearanceOverlay="@style/offers" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/nunito_regular"
+                android:lineHeight="24px"
+                android:text="$20/week"
+                android:textColor="@color/Warning02"
+                android:textFontWeight="400" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ser_3_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/ser_3"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:text="@string/ser_3_des"
+            android:textSize="15dp"
+            android:fontFamily="@font/nunito_regular"
+            android:lineHeight="21sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/book_ser_3"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rounded_button"
+            android:text="Book a session"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="18sp"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/ser_3_des"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:layout_marginTop="15dp"/>
+
+        <!--        end of service 3-->
+
+        <View
+            android:id="@+id/div_line_ser"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/Neutral03"
+            app:layout_constraintTop_toBottomOf="@id/book_ser_3" />
+
+        <!--        Social Media -->
+        <TextView
+            android:id="@+id/social_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="28px"
+            android:textSize="22dp"
+            android:text="Services offered"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/div_line_ser" />
+
+        <TextView
+            android:id="@+id/social_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/social_title"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:text="@string/social_text"
+            android:textSize="15dp"
+            android:fontFamily="@font/nunito_regular"
+            android:lineHeight="21sp"
+            android:textColor="@color/gray"/>
+
+        <Button
+            android:id="@+id/linkedin_btn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_linkedin"
+            app:layout_constraintTop_toBottomOf="@id/social_des"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:layout_marginTop="15dp"
+            />
+
+        <Button
+            android:id="@+id/instagram_btn"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ic_instagram"
+            app:layout_constraintTop_toBottomOf="@id/social_des"
+            app:layout_constraintLeft_toRightOf="@id/linkedin_btn"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            />
+
+        <!--        end of social media -->
+
+        <View
+            android:id="@+id/div_line_social"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/Neutral03"
+            app:layout_constraintTop_toBottomOf="@id/instagram_btn" />
+
+        <!--        previous work-->
+
+        <TextView
+            android:id="@+id/prev_work_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="28px"
+            android:textSize="22dp"
+            android:text="Previous Work"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/div_line_social" />
+
+        <TextView
+            android:id="@+id/prev_work_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@id/prev_work_title"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:text="@string/prev_work_text"
+            android:textSize="15dp"
+            android:fontFamily="@font/nunito_regular"
+            android:lineHeight="21sp"
+            android:textColor="@color/gray"/>
+
+        <!--        big work-->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/big_work"
+            android:layout_width="380dp"
+            android:layout_height="267dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/work1"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/profile_guideline"
+            app:layout_constraintEnd_toStartOf="@id/guideline5"
+            app:layout_constraintTop_toBottomOf="@id/prev_work_des"
+            app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+        <!--        small works-->
+        <RelativeLayout
+            android:id="@+id/img_group1"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/big_work"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/small_work1"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/small_work_3"
+                android:layout_toRightOf="@id/small_work_1"
+                android:src="@drawable/small_work2"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/small_work3"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+        </RelativeLayout>
+        <!--            4-6-->
+
+        <RelativeLayout
+            android:id="@+id/img_group2"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/img_group1"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/small_work4"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/small_work_6"
+                android:layout_toRightOf="@id/small_work_4"
+                android:src="@drawable/small_work5"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/small_work6"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+
+        </RelativeLayout>
+
+        <!--        7-9-->
+        <RelativeLayout
+            android:id="@+id/img_group3"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/img_group2"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            android:layout_marginTop="15dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/small_work7"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_8"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/small_work_9"
+                android:layout_toRightOf="@id/small_work_7"
+                android:src="@drawable/small_work8"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/small_work_9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/small_work9"
+                android:visibility="visible"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+
+        </RelativeLayout>
+
+        <!--        end of previous work-->
+
+        <View
+            android:id="@+id/div_line_work"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/Neutral03"
+            app:layout_constraintTop_toBottomOf="@id/img_group3" />
+
+
+        <!--        begin of reviews-->
+
+        <TextView
+            android:id="@+id/reviews_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/nunito_bold"
+            android:lineHeight="28px"
+            android:textSize="22dp"
+            android:text="Reviews"
+            android:textColor="@color/black"
+            android:textFontWeight="700"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/div_line_work" />
+
+        <TextView
+            android:id="@+id/reviews_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            app:layout_constraintTop_toBottomOf="@id/reviews_title"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:text="@string/reviews_text"
+            android:textSize="15dp"
+            android:fontFamily="@font/nunito_regular"
+            android:lineHeight="21sp"
+            android:textColor="@color/gray"/>
+
+
+        <LinearLayout
+            android:id="@+id/avg_rating"
+            android:layout_marginTop="24dp"
+            android:layout_width="116dp"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/div_line_work"
+            app:layout_constraintRight_toLeftOf="@id/guideline5">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:background="@drawable/star_filled"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:background="@drawable/star_filled"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"/>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:background="@drawable/star_filled"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:background="@drawable/star_filled"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"/>
+            <View
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:background="@drawable/star_filled"
+                android:layout_weight="1"/>
+
+
+
+        </LinearLayout>
+
+        <!--        number of total reviews-->
+
+        <TextView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:text="12 reviews total"
+            android:fontFamily="@font/nunito_regular"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            app:layout_constraintTop_toBottomOf="@id/avg_rating"
+            app:layout_constraintRight_toLeftOf="@id/guideline5"
+            android:layout_marginTop="5dp"/>
+
+
+        <!--        first review-->
+
+        <RelativeLayout
+            android:id="@+id/rev_1_fram"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/reviews_des"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/rev_1_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rev_1_img"
+                android:visibility="visible"
+                android:layout_alignParentLeft="true"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <TextView
+                android:id="@+id/rev_1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/rev_1_img"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Berry Winklemore"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/rev_1_occu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rev_1_name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/rev_1_img"
+                android:fontFamily="@font/nunito_regular"
+                android:text="Aspiring UX Designer"
+                android:textColor="@color/gray"
+                android:textSize="17dp"/>
+
+            <LinearLayout
+                android:id="@+id/avg_rating1"
+                android:layout_width="128dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:layout_below="@id/rev_1_occu"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/rev_1_img">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rev_1_comment"
+                android:text="@string/rev_1_comment"
+                android:fontFamily="@font/nunito_regular"
+                android:textColor="@color/gray"
+                android:layout_below="@id/rev_1_img"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="See more reviews >"
+                android:textColor="@color/Primary01"
+                android:fontFamily="@font/nunito_regular"
+                android:textAllCaps="false"
+                android:layout_below="@id/rev_1_comment"
+                android:layout_marginTop="3dp"/>
+
+        </RelativeLayout>
+
+        <!--        end of first review-->
+
+
+        <!--        start of second review-->
+        <RelativeLayout
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/rev_1_fram"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="50dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/rev_2_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/rev_1_img"
+                android:visibility="visible"
+                android:layout_alignParentLeft="true"
+                app:shapeAppearanceOverlay="@style/corneredSquare" />
+
+            <TextView
+                android:id="@+id/rev_2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/rev_2_img"
+                android:fontFamily="@font/nunito_bold"
+                android:text="Harold Gerold"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/rev_2_occu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rev_2_name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/rev_2_img"
+                android:fontFamily="@font/nunito_regular"
+                android:text="Looking for a job in tech"
+                android:textColor="@color/gray"
+                android:textSize="17dp"/>
+
+            <LinearLayout
+                android:id="@+id/avg_rating2"
+                android:layout_width="128dp"
+                android:layout_height="20dp"
+                android:orientation="horizontal"
+                android:layout_below="@id/rev_2_occu"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/rev_2_img">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="7dp"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/star_filled"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rev_2_comment"
+                android:text="@string/rev_2_comment"
+                android:fontFamily="@font/nunito_regular"
+                android:textColor="@color/gray"
+                android:layout_below="@id/rev_2_img"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="See more reviews >"
+                android:textColor="@color/Primary01"
+                android:fontFamily="@font/nunito_regular"
+                android:textAllCaps="false"
+                android:layout_below="@id/rev_2_comment"
+                android:layout_marginTop="3dp"/>
+
+        </RelativeLayout>
+        <!--        end of second review-->
+
+
+        <!--        end of reviews -->
+        <RelativeLayout
+            android:id="@+id/discount"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/currently_e">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:background="@color/Primary00"
+                app:shapeAppearanceOverlay="@style/offers"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="420dp" />
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="3dp"
+                android:src="@drawable/offers_blue_cir"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="420dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/nunito_bold"
+                android:paddingRight="15dp"
+                android:text="@string/discount"
+                android:textColor="@color/Primary01" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/night_session"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toRightOf="@id/profile_guideline"
+            app:layout_constraintTop_toBottomOf="@id/discount">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:background="@color/Primary00"
+                app:shapeAppearanceOverlay="@style/offers"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="420dp" />
+
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="3dp"
+                android:src="@drawable/offers_blue_cir"
+                tools:layout_editor_absoluteX="34dp"
+                tools:layout_editor_absoluteY="420dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/nunito_bold"
+                android:paddingRight="15dp"
+                android:text="@string/night_session"
+                android:textColor="@color/Primary01" />
+        </RelativeLayout>
+
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/profile_guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="18dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="391dp"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintGuide_end="18dp"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

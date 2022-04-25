@@ -9,5 +9,23 @@
         android:id="@+id/search"
         android:name="com.example.proconomyapp.search"
         android:label="fragment_search"
-        tools:layout="@layout/fragment_search" />
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search_to_mentor_list"
+            app:destination="@id/mentor_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentor_list"
+        android:name="com.example.proconomyapp.mentor_list"
+        android:label="fragment_mentor_list"
+        tools:layout="@layout/fragment_mentor_list" >
+        <action
+            android:id="@+id/action_mentor_list_to_singleMentorFragment"
+            app:destination="@id/singleMentorFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/singleMentorFragment"
+        android:name="com.example.proconomyapp.SingleMentorFragment"
+        android:label="fragment_single"
+        tools:layout="@layout/fragment_single" />
 </navigation>

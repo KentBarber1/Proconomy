@@ -12,18 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProconomyApp">
-        <activity
-            android:name=".searching"
-            android:exported="false" />
-        <activity
-            android:name=".password_log"
-            android:exported="false" />
-        <activity
-            android:name=".login_mentee"
-            android:exported="false" />
-        <activity
-            android:name=".turn_location"
-            android:exported="false" />
+
         <activity
             android:name=".mentor_availability"
             android:exported="false" />
@@ -34,60 +23,14 @@
             android:name=".view_calendar"
             android:exported="false" />
         <activity
-            android:name=".notification_turn"
+            android:name=".mainPageActivity"
             android:exported="false" />
-        <activity
-            android:name=".mentor_register0"
-            android:exported="false" />
-        <activity
-            android:name=".mentee_3signin"
-            android:exported="false" />
-        <activity
-            android:name=".mentor_3signin"
-            android:exported="false" />
-        <activity
-            android:name=".mentor_register3"
-            android:exported="false" />
-        <activity
-            android:name=".mentee_register4"
-            android:exported="false" />
-        <activity
-            android:name=".mentee_register3"
-            android:exported="false" />
-        <activity
-            android:name=".mentee_register2"
-            android:exported="false" />
-        <activity
-            android:name=".mentee_register"
-            android:exported="false" />
-        <activity
-            android:name=".menteescr"
-            android:exported="false" />
+
         <activity
             android:name=".ui.login.LoginActivity"
             android:exported="false"
             android:label="@string/title_activity_login" />
-        <activity
-            android:name=".mentorscr"
-            android:exported="false" />
-        <activity
-            android:name=".MentorSlide1"
-            android:exported="false" />
-        <activity
-            android:name=".MentorSlide2"
-            android:exported="false" />
-        <activity
-            android:name=".MentorSlide3"
-            android:exported="false" />
-        <activity
-            android:name=".MenteeSlide1"
-            android:exported="false" />
-        <activity
-            android:name=".MenteeSlide2"
-            android:exported="false" />
-        <activity
-            android:name=".MenteeSlide3"
-            android:exported="false" />
+
         <activity
             android:name=".mentor_profile"
             android:exported="false" />
@@ -100,9 +43,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
 
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=

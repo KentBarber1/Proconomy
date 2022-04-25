@@ -176,7 +176,11 @@
         android:id="@+id/turn_loc"
         android:name="com.example.proconomyapp.turn_loc"
         android:label="fragment_turn_loc"
-        tools:layout="@layout/fragment_turn_loc" />
+        tools:layout="@layout/fragment_turn_loc" >
+        <action
+            android:id="@+id/action_turn_loc_to_mainPageActivity"
+            app:destination="@id/mainPageActivity" />
+    </fragment>
     <fragment
         android:id="@+id/sign_in_mentee"
         android:name="com.example.proconomyapp.sign_in_mentee"
@@ -277,4 +281,9 @@
             android:id="@+id/action_list_profile_to_resgiter4"
             app:destination="@id/resgiter4" />
     </fragment>
+    <activity
+        android:id="@+id/mainPageActivity"
+        android:name="com.example.proconomyapp.mainPageActivity"
+        android:label="main_page"
+        tools:layout="@layout/main_page" />
 </navigation>

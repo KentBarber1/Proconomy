@@ -117,7 +117,15 @@
     <string name="create_and_list"><![CDATA[Create & list your profile?]]></string>
     <string name="until_you_list">Until you list the services you provide and your availability, mentees will only be able to contact you via the email listed in your profile.\n\n You can also edit more settings in the Mentor Dashboard.</string>
     <string name="create">Create and List Profile</string>
-    <string name = "view">View mentor dashboard</string>
+    <string name="view">View mentor dashboard</string>
+    <string name="mentor_avail">Mentors available for these services</string>
+    <string name="resume">resume prep</string>
+    <string name="ten_mentors">10 mentors available</string>
+    <string name="mentor_others">Get mentoring in other fields</string>
+    <string name="UX_designer">Frank Oboye, UX Designer</string>
+    <string name="hours">\n1-3 hours/week</string>
+    <string name="doll">\n$35/week</string>
+    <string name="mentor_brief">I offee services tailored to emerging professionals, including industry standard advice, portfolio design, and resume ...</string>
     <string-array name="industries">
         <item>Architecture</item>
         <item>Technology</item>
