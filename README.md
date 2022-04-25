@@ -12,7 +12,7 @@ Proconomy version 1.0 primart feautures:
 * User search and filter results
 * Profile view
 * Calender display
-### Knwon Bugs And Defect:
+### Known Bugs And Defect:
 * backend functionality is missing
 * firebase connection issues
 ## Install Guide
