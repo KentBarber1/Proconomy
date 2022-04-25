@@ -28,7 +28,7 @@ to set up a emulator
 * Open the file in Android Studio
 * build gradle(dependency) 
 * run APP
-*** (https://youtu.be/6CIPovJxty8) short video guide on setting up emulator and run ***
+### *** (https://youtu.be/6CIPovJxty8) short video guide on setting up emulator and run ***
 
 
 
