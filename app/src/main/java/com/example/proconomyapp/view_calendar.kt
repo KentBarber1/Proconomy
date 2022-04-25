@@ -31,7 +31,7 @@ class view_calendar : AppCompatActivity() {
     }
 
     fun select_time(view: View) {
-        val myIn = Intent(this, mentee_select_time::class.java)
+        val myIn = Intent(this, visual_alb::class.java)
         startActivity(myIn)
     }
 

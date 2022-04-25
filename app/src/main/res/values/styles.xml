@@ -62,10 +62,6 @@
     <style name="offers">
         <item name="cornerSize">50%</item>
     </style>
-    <style name="MyTextInputLayout_overlay">
-        <item name="colorOnSurface">@color/gray</item>
-        <item name="colorPrimary">@color/gray</item>
-    </style>
 
     <style name="navigationBarStyle">
         <item name="android:textSize">40dp</item><!-- text size in menu-->

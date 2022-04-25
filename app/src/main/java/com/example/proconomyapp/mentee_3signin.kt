@@ -11,11 +11,11 @@ class mentee_3signin : AppCompatActivity()  {
         setContentView(R.layout.sign_in_mentee)
     }
     fun backClick(view: View) {
-        val myIntent = Intent(this, MainActivity::class.java)
+        val myIntent = Intent(this, MainAc::class.java)
         startActivity(myIntent)
     }
     fun email_sign(view: View) {
-        val reg = Intent(this, mentee_register::class.java)
+        val reg = Intent(this, mentee_login::class.java)
         startActivity(reg)
     }
 
